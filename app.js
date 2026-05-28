@@ -1,0 +1,498 @@
+/**
+ * "Buen Camino, Tod!" - Interactive Companion & Game Engine
+ * Automatically generated from role booklet database.
+ */
+
+const charactersData = [
+  {
+    "id": "albert",
+    "name": "Albert",
+    "age": "64",
+    "role": "Der eigenwillige Hobby-Gärtner",
+    "char_desc": "Du bist ein bodenständiger Ehemann und leidenschaftlicher Hobby Gärtner. Die Familie und die Gemeinde stehen für dich an erster Stelle. Nach außen wirkst du wie ein Opa, der ständig ungefragt Tipps zu Dünger, Kräutern und dem pH-Wert vom Boden gibt. Aber unter der Oberfläche bist du auf dem Camino, um deine Ehe zu retten. Dennoch würdest du deine Familie um jeden Preis beschützen.",
+    "secrets": "Du weißt, dass Monika (deine Frau), Martin getötet hat. Sie hat dir erzählt, dass er sie angeblich angegriffen hat und sie ihn nun in Notwehr ausschalten muss. Für dich sind die Details unwichtig. Doch eines ist klar: Du deckst deine Frau bedingungslos. Sie erzählt dir, dass Martin Lena schon seit längerer Zeit belästigt und ihr unheimlich nahekam. Das hat ihr Sorgen gemacht. Du bist überzeugt, dass sie nur gehandelt hat, um sich und Lena zu schützen.",
+    "relation_martin": "Bevor deine Frau ihn umgebracht hatte, konntest du Martin ganz gut leiden. Er hat sich für deine Arbeit im Garten interessiert. Doch nun verabscheust du ihn. Seitdem er sich widerlich an Lena herangemacht hatte, ist er in deinen Augen Unkraut, was gejätet werden muss.",
+    "motiv": "Kein offensichtliches Motiv bekannt.",
+    "main_task": "Du bist nicht der Mörder, aber Komplize. Versuche den Verdacht auf eine der anderen anwesenden Personen zu lenken, um damit deine Frau zu schützen. Um das zu erreichen, darfst du ausgiebig lügen. Verrate niemanden, dass du zu dem Vertuschen des Mordes an Martin Fischer beigetragen hast.",
+    "side_task": "Du gibst dich als schrulliger Pflanzenexperte aus. Unterbrich hitzige Gespräche über das Verbrechen immer wieder mit ungefragten Ratschlägen zur Gartenpflege. Zudem ist die wichtigste Aufgabe, deine Familie zu beschützen. Sei wachsam und reagiere sofort auf lautem Protest, wenn jemand Monika oder Lena zu nahetritt.",
+    "costume": "Dein Erscheinungsbild sollte praktisch sein, genau wie es sich für einen passionierten Gärtner gehört. Trage eine klassische Outdooroder Wanderweste. Eine Gartenschere sowie ein Pflanzenbuch sollten bei deinem Outfit nicht fehlen, weil du auf dem Camino hin und wieder ein Blümchen mitnimmst. Ein kariertes Hemd, eine robuste Wanderhose und feste Schuhe runden das Bild ab. Wenn du möchtest, kannst du noch einen Wanderstock bei dir tragen.",
+    "must_bring": "ein Rucksack.",
+    "relations_others": "<strong>Amina:</strong> Sie sucht auf dem Pilgerweg auf eine<br><br><strong>Lena:</strong> Sie ist als junge fleißige Studentin und<br><br><strong>Monika:</strong> Die trafitionsbewusste Ehefrau<br><br><strong>Pastor:</strong> Er wirkt wie ein gütiger Seelsorger,<br><br><strong>Paul:</strong> Ein absoluter Sportfreak auf<br><br><strong>Rico:</strong> Ein schweigsamer Mann, der versucht",
+    "round1": "<strong>17:00 – 17:15 Uhr:</strong><br>Du beziehst dein Zimmer und verschaffst dir sofort einen Überblick. Schnell geht dir Paul auf die Nerven, weil er seine Sachen überall im Raum verteilt hat. Kurz darauf packt er sein Zeug wieder zusammen und verschwindet aus dem Zimmer. Als du aus dem Fenster blickst, siehst du Martin gemeinsam mit Lena draußen lachend auf die Jugendherberge zulaufen. Der Anblick gefällt dir überhaupt nicht. Für dich steht fest: Du musst verhindern, dass Martin deiner Tochter zu nahekommt. Auch Monika beobachtet ihn und sagt zu dir: „Bitte hilf mir etwas zu unternehmen mit allen Mitteln! Selbst wenn er stirbt, ist es mir recht“. Daraufhin verlässt du schnell das Zimmer.<br><br><strong>17:15 – 17:30 Uhr:</strong><br>Du schleichst in den Speisesaal und tust so, als würdest du ein paar Möbel zurechtrücken. In Wahrheit suchst du nach einer Möglichkeit, Martin eins auszuwischen. Dein Gedanke fällt schließlich auf sein Fahrrad, welches draußen im Garten steht. Irgendetwas muss sich doch finden lassen, um den Reifen zu beschädigen. Du nimmst ein Messer aus einer Besteckschublade an dich. Auch die Gartenschere, die du griffbereit bei dir trägst, könnte nützlich werden.<br><br><strong>17:30 – 17:45 Uhr:</strong><br>Im Garten machst du dich an Martins Fahrrad zu schaffen und manipulierst es. Die anderen beobachten dich, doch für sie wirkt es so, als würdest du sein Fahrrad reparieren wollen.",
+    "round2": "<strong>18:00 – 18:20 Uhr:</strong><br>Du hältst den Druck nicht mehr aus, weshalb du dich in die noch leere Kapelle schleichst und im dunklen Beichtstuhl verschwindest. Du flüsterst dem Pastor anonym deine Mordgedanken und die Sache mit dem Messer zu. Als du die Kapelle wieder verlässt, bemerkst du einen Schatten an der Tür – jemand hat dich gesehen, wie du aus dem Beichtstuhl gekommen bist.<br><br><strong>18:20 – 18:40 Uhr:</strong><br>Im Garten triffst du Amina und Monika. Du gibst vor, Kräuter für einen Beruhigungstee zu sammeln. Amina hilft dir und pflückt ein Bündel harmlose Kräuter, die du in ein blaues Taschentuch wickelst. Während Amina kurz wegsieht, gräbst du das giftige Jakobskreuzkraut aus und wickelst ihn in ein identisches, zweites blaues Taschentuch. Dein Plan: Du willst Amina die harmlosen Kräuter geben und Monika das Gift. Doch du bist so nervös, dass deine Hände zittern. Du drückst Amina ein Tuch in die Hand und schiebst Monika das andere zu mit den Worten: „Hier du wolltest, dass ich etwas gegen Martin unternehme.“",
+    "round3": "<strong>19:00 – 19:10 Uhr:</strong><br>Schon während der Andacht merkst du, dass Martin heute gefährlich gereizt wirkt. Dann springt er plötzlich auf und reißt seinen Rucksack auf. Sekunden später beginnt er herumzuschreien. „Das ist nicht mein Zeug!“ Er wirft Gegenstände quer durch die Kapelle und beschuldigt praktisch jeden im Raum. „Heute Abend kommen alle Geheimnisse raus!“ Diese Worte treffen dich sofort. Du bekommst Panik.<br><br><strong>19:10 – 19:20 Uhr:</strong><br>Sobald die Gruppe die Kapelle verlässt, ziehst du Monika hektisch zur Seite. Du sprichst leise, damit niemand euch hört. „Amina hat das falsche Kräuterbündel.“ Monika schaut dich sofort ernst an. „Die giftigen Kräuter“, erklärst du nervös weiter. „Sie darf das nicht behalten.“ Während ihr sprecht, siehst du Amina panisch durch den Flur laufen. Dann fällt plötzlich irgendwo ein kleines blaues Stoffpäckchen zu Boden. Du erkennst nur noch, wie Paul es schnell aufhebt. Und plötzlich weißt du selbst nicht mehr sicher: War das gerade das giftige Bündel?<br><br><strong>19:20 – 19:30 Uhr</strong><br>Im Gemeinschaftsraum beobachtest du nervös die anderen. Paul wirkt angespannt. Lena spricht hektisch mit ihm. Immer wieder glaubst du irgendwo kurz blauen Stoff zu sehen. Aber jedes Mal verschwindet er wieder zwischen Jacken, Geschirr oder Händen. Langsam verlierst du selbst den Überblick.<br><br><strong>19:30 – 19:40 Uhr</strong><br>Martin wird immer aggressiver. Mehrfach droht er Leuten direkt ins Gesicht. Du versuchst die ganze Zeit herauszufinden, wo das Bündel gerade ist. Aber überall laufen Menschen durcheinander. Und Monika wirkt dabei seltsam ruhig. Das beruhigt dich gleichzeitig — und macht dir Angst.<br><br><strong>19:40 – 19:50 Uhr</strong><br>Kurz bevor das Essen richtig beginnt, siehst du Rico mit einem kleinen blauen Stoffpäckchen Richtung Küche gehen. Dein Herz setzt fast aus. Du willst hinterhergehen, wirst aber sofort wieder von Martins lautem Geschrei abgelenkt. Als du später kurz in die Küche blickst, liegt dort ein blaues Stoffpäckchen zwischen Geschirr und Tüchern auf der Anrichte. Du kannst unmöglich sagen, ob es das giftige ist."
+  },
+  {
+    "id": "amina",
+    "name": "Amina",
+    "age": "28",
+    "role": "Sie sucht auf dem Pilgerweg auf eine",
+    "char_desc": "Du bist eine gläubige und weltoffene Frau, die auf dem Jakobsweg nach ihrer inneren Mitte sucht. Du bist intelligent, aufmerksam und meistens eher still, wirkst auf andere aber manchmal „etwas verrückt“, da du eine sehr ausgeprägte spirituelle Ader hast. Dein Ziel ist es, mehr über dich selbst, Gott und die christliche Pilgerkultur zu erfahren.",
+    "secrets": "Hinter deiner ruhigen Fassade verbirgt sich eine tiefe Verletzung. Das Opfer Martin, hat sich grausam über deinen Glauben lustig gemacht. Er hat dich auf der Reise mehrmals beleidigt und belästigt. Zudem hat er dein privates Tagebuch gestohlen, ein Buch, welches du auf deinem Weg begonnen hast zu schreiben. Darin stehen deine intimsten Gespräche mit Gott sowie deine spirituellen Zweifel. Martin hat in der Herberge Passagen daraus laut vorgelesen, deine Worte als „psychische Krankheit“ verspottet und sie so verdreht, dass sie wie Gotteslästerung wirkten. Damit ist nicht genug: Martin veröffentlichte heimlich gefilmte Videos von dir, sowie Tagebuchpassagen in Pilgerforen. Seitdem wirst du mit hasserfüllten Nachrichten und Drohungen bombardiert. Man bezeichnet dich als Eindringling und will dich vom Pilgerweg vertreiben.",
+    "relation_martin": "Deine Beziehung zu Martin ist von tiefem Schmerz und einem massiven Vertrauensbruch geprägt. Ursprünglich war er für dich der Pilgerführer, der dir den Weg weisen sollte, doch er entpuppte sich als dein schlimmster Mobber. Martin hat dein Leben, deinen Glauben und deine privaten Gespräche in den Schmutz gezogen. Er war nicht nur respektlos, sondern auch grausam.",
+    "motiv": "Dein Motiv liegt in der Verteidigung deiner Würde und deines Glaubens. Die anderen könnten dir vorwerfen, dass du Martin getötet hast, um die Erpressung und das Mobbing endgültig zu beenden, sein Handy mit den belastenden Videos zu vernichten und dein gestohlenes Tagebuch zurückzuholen.",
+    "main_task": "Du bist nicht der Mörder und darfst nicht lügen. Deine Geheimnisse darfst du nur für dich behalten, besonders die, die als Tatmotiv infrage kommen könnten. Wenn allerdings jemand Beweise für deine Geheimnisse liefert, darfst du nur ausweichen ohme zu lügen oder die Wahrheit zu offenbaren. Obwohl du unter Mobbing leidest, versuchst du über den Abend gelassen zu bleiben. Du hälst deinen Hass gegenüber Martin geheim und streust nur ein paar Andeutungen ein.",
+    "side_task": "Konzentriere dich auf die Hauptaufgabe und beobachte die anderen verdächtigen Pilger.",
+    "costume": "Du bevorzugst fließende Stoffe und lockere Kleidung, die deinen Körper bedenken. Du solltest immer Räucherstäbchen oder ein paar Kerzen in deiner Nähe haben. Zu deinem festen Equipment gehört dein Tagebuch.",
+    "must_bring": "ein Rucksack.",
+    "relations_others": "<strong>Lena:</strong> Sie ist als junge fleißige Studentin und<br><br><strong>Monika:</strong> Die traditionsbewusste Ehefrau<br><br><strong>Pastor:</strong> Er wirkt wie ein gütiger Seelsorger,<br><br><strong>Paul:</strong> Ein absoluter Sportfreak auf<br><br><strong>Rico:</strong> Ein schweigsamer Mann, der versucht<br><br><strong>Albert:</strong> Der eigenwillige Hobby-Gärtner",
+    "round1": "<strong>17:00 – 17:15 Uhr:</strong><br>Du bist gerade erst in deinem Zimmer angekommen, als dein Handy ununterbrochen in deiner Tasche vibriert. Ping. Ping. Ping. Das Geräusch macht dich langsam wahnsinnig. Um dich zu beruhigen, beginnst du zu räuchern, angeblich, um die „Dämonen“ zu vertreiben. Rico hält davon allerdings überhaupt nichts. Genervt wirft er dich aus dem Zimmer.<br><br><strong>17:15 – 17:30 Uhr:</strong><br>Das ständige Vibrieren lässt dir keine Ruhe mehr. Mit der SIMKarte in der Hand flüchtest du in den Garten. Du willst diesen digitalen Fluch endgültig loswerden. Hektisch vergräbst du die Karte mit deinen Fingern in der Erde unter einem Stein. Als du wieder aufblickst, bemerkst du Paul, der dich beobachtet. Sofort fixierst du ihn mit einem hasserfüllten Blick – gerade kannst du wirklich keine Zeugen gebrauchen.<br><br><strong>17:30 – 17:45 Uhr:</strong><br>Du gehst zurück ins Haus Richtung Aufenthaltsraum. Auf dem Flur läuft dir Martin entgegen. Genau in diesem Moment erscheint auf deinem Haupt-Handy eine neue Nachricht: ein Foto von dir im Garten, während du gräbst. Absender unbekannt. Jemand beobachtet dich. Im Aufenthaltsraum sitzt Walentina und zerreißt wütend ein Foto. Du versuchst ruhig zu bleiben und sprichst mit deiner sanften „Heiler-Stimme“ auf sie ein: „Lass den Schmerz los, Walentina.“ Doch sie lacht dir nur kalt ins Gesicht. „Halt die Klappe, Amina. Ich habe die Nachrichten auch bekommen. Jeder weiß inzwischen, was für eine miese Mobberin du warst.“",
+    "round2": "<strong>18:00 – 18:10 Uhr:</strong><br>Du willst gerade zur Kapelle gehen, um Ruhe vor den ständigen Erpresser-Nachrichten auf deinem Handy zu finden. Doch Martin kommt dir aus seinem Zimmer entgegen. Er versperrt dir den Weg, grinst dreckig und sagt: „Schau nicht so gläubig, Amina. Dein 'spirituelles' Image ist morgen Schrott, wenn die Presse die Fotos von deiner Mobbing-Aktion sieht.“ Du zitterst vor Wut und Scham, sagst aber nichts und eilst weiter zur Kapelle.<br><br><strong>18:10 – 18:20 Uhr:</strong><br>Du gehst in die Kapelle, die noch fast leer ist, willst dich dort in eine hintere Ecke setzen und beten, doch dann hörst du ein Geräusch beim Beichtstuhl. Du erstarrst und siehst, wie Albert mit verstörtem Gesicht aus dem Beichtstuhl tritt. Er sieht aus, als hätte er gerade ein Todesurteil gehört. Damit er dich nicht bemerkt und denkt, du hättest ihn belauscht, schleichst du dich panisch durch die Seitentür wieder hinaus in den Garten.<br><br><strong>18:20 – 18:40 Uhr:</strong><br>Im Garten triffst du auf Albert (der gerade aus der Kapelle nachgekommen ist) und Monika. Albert wirkt jetzt seltsam und entschlossen. Da er denkt, du hättest ihn nicht gesehen, spielt er den fürsorglichen Pilger-sieVater. Er bietet dir an, Kräuter für einen „starken Beruhigungstee“ zu sammeln. Du hilfst ihm kurz, bist aber völlig abwesend. Schließlich drückt Albert dir ein blaues Taschentuch in die Hand: „Nimm das, Amina. Das wird dafür sorgen, dass Martin dich heute Abend nicht mehr stört. Koch dir daraus einen Tee, sobald wir essen.“ Du steckst das Tuch ein.",
+    "round3": "<strong>19:00 – 19:10 Uhr:</strong><br>Schon während der Andacht fühlst du dich unwohl. Martin wirkt aggressiv und angespannt. Dann springt er plötzlich auf, reißt seinen Rucksack auf und beginnt laut herumzuschreien. „Wer war an meinen Sachen?!“ Er wirft Gegenstände quer durch die Kapelle und droht, heute Abend alle bloßzustellen. Seine Wut macht dir Angst. Vor allem, weil das kleine blaue Kräuterbündel von Albert noch immer in deiner Tasche steckt. Du weißt zwar nicht genau, was darin ist — aber Albert wirkte ungewöhnlich nervös, als er es dir gegeben hat.<br><br><strong>19:10 – 19:20 Uhr:</strong><br>Als alle hektisch die Kapelle verlassen, läufst du fast panisch durch den Flur. Du willst einfach nur weg von Martin. Dann stolperst du plötzlich. Doch in deiner Panik denkst du nicht weiter darüber nach und läufst sofort weiter. Erst Minuten später fällt dir wieder ein, dass das Kräuterbündel verschwunden sein könnte.<br><br><strong>19:20 – 19:30 Uhr:</strong><br>Im Gemeinschaftsraum versuchst du möglichst ruhig zu wirken. Aber innerlich wirst du immer nervöser. Immer wieder tastest du unbewusst nach deiner Tasche. Das Bündel ist nicht mehr da. Du traust dich allerdings nicht, irgendjemandem davon zu erzählen.<br><br><strong>19:30 – 19:40 Uhr:</strong><br>Während die Stimmung im Haus weiter eskaliert, glaubst du immer wieder irgendwo kurz blauen Stoff zu sehen. Bei Paul. Zwischen Geschirr. Neben irgendwelchen Küchentüchern. Aber jedes Mal verschwindet der Eindruck sofort wieder. Inzwischen weißt du selbst nicht mehr sicher, ob du dir das nur einbildest.<br><br><strong>19:40 – 19:50 Uhr:</strong><br>Beim Essen versuchst du möglichst wenig Aufmerksamkeit auf dich zu ziehen. Martin schreit inzwischen fast ohne Pause herum und alle konzentrieren sich auf ihn. Trotzdem bekommst du das Gefühl nicht los, dass irgendetwas Schlimmes passieren wird."
+  },
+  {
+    "id": "lena",
+    "name": "Lena",
+    "age": "18",
+    "role": "Sie ist als junge fleißige Studentin und",
+    "char_desc": "Du bist eine junge fleißige Studentin, die den Jakobsweg vielleicht auch als Ausgleich zu ihrem stressigen Unialltag nutzt. Es ist für dich eine neue Erfahrung und du möchtest diese inspirierende Kraft des Caminos in deinen Blog stecken. Du bist nämlich Journalistin. Gleichzeitig bist du auch mit deinen Eltern Monika und Albert auf dem Weg. Du verstehst dich besser mit deinen Eltern, seitdem du von zu Hause ausgezogen bist. Es gab nur Streit und Stress zuhause. Deine Eltern haben dich auf die Idee gebracht mit ihnen zu pilgern, um das Familienverhältnis zu stärken. In der Runde wirkst du sympathisch und eher unschuldig, was dazu führt, dass man dir gerne vertraut.",
+    "secrets": "Du hast als eine der wenigen eine sehr gute Beziehung zu Martin gehabt. In deiner Gegenwart war er immer zuvorkommend und hilfsbereit und hat dir sogar bei deinen Studiensachen unter die Arme gegriffen. Als Gegenzug hast du ihm bei seiner App geholfen und ein paar Blogeinträge sorgfältig ausgearbeitet. Doch es gibt eine Kehrseite: Du fühlst dich von seiner Nähe etwas bedrängt.",
+    "relation_martin": "Für dich war Martin eine Art Mentor-Figur. Er war immer da, wenn du Hilfe gebraucht hast, besonders bei komplexen Themen deines Studiums. Auch wenn dir sein „Auflauern“ manchmal ein mulmiges Gefühl gegeben hat, überwog deine Dankbarkeit für seine Unterstützung.",
+    "motiv": "Auf den ersten Blick hast du kein richtiges Motiv, da du ihn mochtest. Doch deine innige Beziehung zu ihm kann auch täuschen. Was wäre wenn die Indizien dir ein falsches Mordmotiv unterstellen?",
+    "main_task": "Du bist nicht der Mörder und darfst nicht lügen. Deine Geheimnisse darfst du nur für dich behalten, besonders die, die als Tatmotiv infrage kommen könnten. Wenn allerdings jemand Beweise für deine Geheimnisse liefert, darfst du nur ausweichen ohne zu lügen oder ohne die Wahrheit zu offenbaren.",
+    "side_task": "Konzentriere dich auf die Hauptaufgabe und beobachte die anderen verdächtigen Pilger.",
+    "costume": "Dein Look ist der einer typischen Studentin. Du trägst praktische Kleidung, wie beispielsweise einen Hoodie. Unverzichtbar sind dein Notizblock und ein Stift, die du immer griffbereit hast.",
+    "must_bring": "ein Rucksack.",
+    "relations_others": "<strong>Amina:</strong> Sie sucht auf dem Pilgerweg auf eine<br><br><strong>Monika:</strong> Die traditionsbewusste Ehefrau<br><br><strong>Pastor:</strong> Er wirkt wie ein gütiger Seelsorger,<br><br><strong>Paul:</strong> Ein absoluter Sportfreak auf<br><br><strong>Rico:</strong> Ein schweigsamer Mann, der versucht<br><br><strong>Albert:</strong> Der eigenwillige Hobby-Gärtner",
+    "round1": "<strong>17:00 – 17:15 Uhr:</strong><br>Du bist gemeinsam mit Martin draußen lachend unterwegs in Richtung der Jugendherberge und begibst dich auf den Weg in dein Zimmer. Dort beziehst du dein Bett, doch die Stimmung kippt sofort. Walentina führt sich auf, als würde ihr der Raum alleine gehören und blockiert dauerhaft den einzigen Spiegel. Währenddessen bemerkst du, wie sie heimlich Martins Rucksack durchsucht, der auf dem freien Bett liegt.<br><br><strong>17:15 – 17:30 Uhr:</strong><br>Weil du es mit Walentina im Zimmer nicht lange aus hälst, gehst du in den Aufenthaltsraum, um dein Handy aufzuladen. Dort fällt dir der Pastor auf. Er wirkt überhaupt nicht ruhig oder freundlich, sondern schaut sich ständig nervös um. Schließlich versteckt er eine kleine schwarze Linse – offenbar eine Minikamera – hinter einem Stapel alter Wanderkarten im Regal. Kurz darauf verschwindet er wieder hastig.<br><br><strong>17:30 – 17:45 Uhr:</strong><br>Plötzlich stürmt Walentina laut schreiend herein. Du willst dich aus dem Drama heraushalten und gehst zurück in dein Zimmer. Dort triffst du auf Martin und nutzt die Gelegenheit, ihn auf den Streit anzusprechen. Doch statt dir zu antworten, weicht er aus und flüstert: „Vergiss Walentina. Sie ist Vergangenheit. Ich will, dass du das neue Werbegesicht der App wirst.“ Die Worte treffen dich völlig unerwartet. Du bist überwältigt und unglaublich glücklich zugleich. Martin fügt hinzu, dass er nach dem Abendessen noch ein persönliches Gespräch mit dir führen möchte. Er habe ein Geheimnis, das nur für dich bestimmt sei. Voller Euphorie rennst du zu deiner Mutter in die Waschküche und erzählst ihr sofort davon. Doch sie zeigt kaum eine Reaktion, bringt auch kein Wort über die Lippen, sondern verlässt den Raum nur in auffällig schnellem Tempo.",
+    "round2": "<strong>18:00 – 18:20 Uhr:</strong><br>Nachdem du deinen Vater mit dem Messer vor Martins Tür gesehen hast, bist du völlig panisch weggerannt. Du landest in Pauls Zimmer und brichst auf seinem Bett in Tränen aus. Als Paul reinkommt, schüttest du ihm dein Herz aus: Du erzählst ihm von der Angst vor deinem Vater, aber auch von deinem großen Glück – Martin hat dich ausgewählt! Du wirst das neue Gesicht der App. Du erzählst Paul, wie wunderbar Martin zu dir war und, dass er dich heute Abend noch einmal privat sprechen will.<br><br><strong>18:20 – 18:40 Uhr:</strong><br>Paul ist wahnsinnig nett zu dir. Er schlägt vor, dich zurück in dein Zimmer zu bringen, damit du dich frisch machen kannst fürs Abendessen. In deinem Zimmer gehst du sofort ins Bad, um dir das Gesicht mit kaltem Wasser zu waschen. Du hörst es im Zimmer kurz rascheln, denkst dir aber nichts dabei – du bist viel zu aufgeregt wegen deiner \"Karriere\". Als du aus dem Bad kommst, ist Paul schon an der Tür und drängt zum Aufbruch in die Kapelle.",
+    "round3": "<strong>19:00 – 19:10 Uhr:</strong><br>Die Stimmung nach der Andacht ist sowieso schon unangenehm, aber plötzlich springt Martin auf und reißt hektisch seinen Rucksack auf. Sekunden später beginnt er herumzubrüllen. „Das ist nicht mein Zeug!“ Er wirft fremde Sachen quer durch die Kapelle. Alte Kleidung, irgendwelcher Schrott — alles fliegt durch den Raum. „Wer von euch hat meinen Rucksack angefasst?!“ Sein Blick wandert aggressiv von Person zu Person. Dann schreit er: „Heute Abend mache ich euch alle fertig! Jeder hier hat Geheimnisse!“ Seine Stimme klingt dabei so ernst, dass dir richtig unwohl wird.<br><br><strong>19:10 – 19:20 Uhr:</strong><br>Im Flur herrscht plötzlich hektisches Chaos. Menschen laufen durcheinander, Türen schlagen, überall wird durcheinander geredet. Du siehst noch, wie Amina im Flur stolpert. Sie rappelt sich sofort wieder auf und läuft weiter, als hätte sie panische Angst. Direkt daneben steht Paul. Du bemerkst, wie er schnell etwas Kleines vom Boden aufhebt und in seine Jackentasche steckt. Du erkennst nur kurz blauen Stoff. Zuerst denkst du dir nicht viel dabei. Aber irgendwie bleibt dir die Szene im Kopf.<br><br><strong>19:20 – 19:30 Uhr:</strong><br>Im Gemeinschaftsraum beobachtest du Paul genauer. Er wirkt nervös und greift immer wieder an seine Tasche. Irgendwann sprichst du ihn direkt darauf an. Als du schließlich das kleine Stoffpäckchen in der Hand hältst, steigt dir sofort ein intensiver Kräutergeruch in die Nase. Trotzdem bekommst du plötzlich ein ungutes Gefühl. Vielleicht liegt es einfach daran, dass heute sowieso alles seltsam wirkt.<br><br><strong>19:30 – 19:40 Uhr:</strong><br>Während ihr noch diskutiert, taucht plötzlich Walentina neben euch auf. Du bekommst Panik. Plötzlich fühlt sich das kleine Stoffpäckchen an, als würdest du etwas Verbotenes festhalten. „Was ist das?“ fragt Walentina Du antwortest kaum noch, drückst Paul das Bündel schnell wieder in die Hand und willst einfach nur weg aus der Situation. Danach bekommst du das ungute Gefühl nicht mehr los.<br><br><strong>19:40 – 19:50 Uhr:</strong><br>Beim Essen wird die Stimmung immer unangenehmer. Martin provoziert inzwischen beinahe jeden am Tisch und redet laut davon, dass heute noch alle Geheimnisse ans Licht kommen werden. Du versuchst eigentlich nur, möglichst unauffällig zu bleiben."
+  },
+  {
+    "id": "monika",
+    "name": "Monika",
+    "age": "58",
+    "role": "Die trafitionsbewusste Ehefrau",
+    "char_desc": "Du bist eine Frau, die größten Wert auf Anstand, Tradition und ihren Glauben legt. Nach außen hin führst du eine Vorzeigeehe zu deinem Mann Albert. Du bist streng religiös und dein Ruf in der Gemeinde ist dir heilig. Ihr seid auf dem Jakobsweg, um eure Ehe zu retten. Zu deiner Tochter Lena ist die Beziehung schon seit längerer Zeit auf der Kippe. Seitdem sie ausgezogen ist, hast du keinen Lebensinhalt mehr.",
+    "secrets": "Albert und du haben seit einiger Zeit Eheprobleme. Es kriselt schon seit Jahren aufgrund von Fremdgehgerüchten oder Meinungsverschiedenheiten. Da ihr streng religiös seid, ist Ehebruch in euerer Gemeinde eine Sünde. Deshalb rauft ihr euch zusammen und versucht durch eine spirituelle Reise wieder zueinander zu finden. Diese Reise verlief auch bisher sehr erfolgreich. Dein Leben geriet jedoch aus den Fugen als Martin auftauchte. Er hat dich sofort wiedererkannt, denn Martin ist der leibliche Vater deiner Tochter (der Studentin Lena). Du hattest eine Affäre mit ihm, während der Ehe mit Albert.",
+    "relation_martin": "Für dich gehört Martin längst der Vergangenheit an und du hattest ihn bereits verdrängt. Er verkörperte deine größt e Sünde. Jedes Mal, wenn er dich ansah, hast du die Drohung gehört, dein Leben in Trümmer zu legen. Du hast ihn nicht nur gehasst, du hast ihn als bösartiges Hindernis auf deinem Weg zur Erlösung gesehen.",
+    "motiv": "Kein offensichtliches Motiv bekannt.",
+    "main_task": "Du spielst die Täterin. Versuche den Verdacht auf eine der anderen anwesenden Personen zu lenken. Um das zu erreichen, darfst du ausgiebig lügen. Versuche, Hinweise auf dich als Mörderin gekonnt zu umspielen und dich nicht zu verstricken. Verrate niemanden, dass du den Mord an Martin Fischer begangen hast.",
+    "side_task": "Konzentriere dich auf die Hauptaufgabe und beobachte die anderen verdächtigen Pilger.",
+    "costume": "Dein Look ist konservativ: eine ordentliche Bluse, ein Wollpullover und eine praktische Wanderhose. Dien Haar ist streng frisiert und du trägst ein Kreuz an deiner Kette.",
+    "must_bring": "ein Rucksack.",
+    "relations_others": "<strong>Amina:</strong> Sie sucht auf dem Pilgerweg auf eine<br><br><strong>Lena:</strong> Sie ist als junge fleißige Studentin und<br><br><strong>Pastor:</strong> Er wirkt wie ein gütiger Seelsorger,<br><br><strong>Paul:</strong> Ein absoluter Sportfreak auf<br><br><strong>Rico:</strong> Ein schweigsamer Mann, der versucht<br><br><strong>Albert:</strong> Der eigenwillige Hobby-Gärtner",
+    "round1": "<strong>17:00 – 17:15 Uhr:</strong><br>Du beziehst gemeinsam mit Albert dein Zimmer und bemerkst sofort, wie angespannt er ist. Er schaut aus dem Fenster. Auch du schaust nun aus dem Fenster und siehst deine Tochter und Martin lachend auf die Jugendherberge zulaufen. Dieser Anblick gefällt dir überhaupt nicht und du sagst zu Albert: „Bitte hilf mir etwas zu unternehmen mit allen Mitteln! Selbst wenn er stirbt, ist es mir recht“. Direkt darauf verlässt er überstürzt das Zimmer. Sofort hast du das ungute Gefühl, dass er etwas Unüberlegtes vorhat.<br><br><strong>17:15 – 17:30 Uhr:</strong><br>Unauffällig folgst du Albert bis in den Speisesaal. Durch einen Türspalt beobachtest du, wie er sich heimlich ein Messer einsteckt. Dein Herz beginnt zu rasen. Du willst ihn nicht verraten, aber gleichzeitig musst du verhindern, dass alles eskaliert. Währenddessen bemerkst du Rico, der Albert ebenfalls misstrauisch beobachtet. Schnell ziehst du dich zurück und verschwindest in Richtung Waschküche, bevor dich jemand bemerkt.<br><br><strong>17:30 – 17:45 Uhr:</strong><br>In der Waschküche triffst du kurz auf Lena. Sie wirkt vollkommen euphorisch und erzählt dir mit leuchtenden Augen, dass Martin sie zum neuen Werbegesicht seiner App machen möchte. Du schaust sie nur kalt an und rennst aus dem Raum. Ohne zu zögern, reißt du die Tür zu Martins Zimmer auf und stürmst hinein.",
+    "round2": "<strong>18:00 – 18:20 Uhr:</strong><br>Du gehst in die Waschküche, um die Tischdecken für das Abendessen zu holen. Dort überraschst du Rico. Er steht in einer dunklen Ecke und hantiert hektisch mit mehreren dicken Geldbündeln, die er versucht, in seiner Tasche zu verstecken. Als er dich sieht, erstarrt er. Die Luft ist zum Schneiden dick. Du fragst nicht, woher das Geld kommt – du hast selbst genug Sorgen –, aber der Anblick von so viel Bargeld in Ricos Händen lässt dich erschaudern. Was geht hier vor?<br><br><strong>18:20 – 18:40 Uhr:</strong><br>Völlig aufgewühlt flüchtest du in den Garten. Dort triffst du auf Albert und Amina. Albert wirkt wie von Sinnen; er gräbt Wurzeln aus und bereitet zwei blaue Stofftaschentücher vor. Er gibt Amina eines davon („Für deinen Tee, Amina, zur Beruhigung“) und schiebt dir das zweite Bündel unauffällig zu. Er flüstert: „Hier du wolltest, dass ich etwas gegen Martin unternehme.“Du steckst es zitternd ein.",
+    "round3": "<strong>19:00 – 19:10 Uhr:</strong><br>Während der Andacht wirkt die Stimmung sowieso schon unangenehm angespannt. Viele reden kaum noch miteinander. Dann springt Martin plötzlich auf und reißt seinen Rucksack hektisch auf. Zuerst schaut er nur verwirrt hinein. Doch Sekunden später explodiert er komplett. „Das ist NICHT mein Zeug!“ Er beginnt fremde Gegenstände quer durch die Kapelle zu werfen. Seine Stimme hallt laut durch den Raum. „Wer war an meinen Sachen?!“ Niemand antwortet. Genau das macht ihn nur noch aggressiver. „Heute Abend fliegt hier alles auf! Ich mache euch alle fertig!“ Während die anderen erschrocken oder nervös reagieren, beobachtest du die Gruppe ruhig. Vor allem achtest du darauf, wer plötzlich Angst bekommt.<br><br><strong>19:10 – 19:20 Uhr:</strong><br>Kurz nachdem die Gruppe die Kapelle verlässt, zieht Albert dich hektisch zur Seite. Er wirkt deutlich panischer als sonst. „Amina hat das falsche Bündel“, flüstert er schnell. „Die giftigen Kräuter.“ Für einen Moment wird dir kalt. Du verstehst sofort, wie gefährlich die Situation werden könnte. Fast gleichzeitig siehst du Amina hektisch durch den Flur laufen. Du gehst absichtlich mit deinem eigenen harmlosen Kräuterpäckchen sichtbar Richtung Küche, damit beide Bündel möglichst ähnlich wirken. Dann stolpert Amina plötzlich. Etwas fällt auf den Boden. Du erkennst nur kurz blauen Stoff. Paul hebt es schnell auf. Aber durch das Chaos kannst selbst du nicht mehr sicher sagen, welches Bündel gerade wo ist.<br><br><strong>19:20 – 19:30 Uhr:</strong><br>In der Küche versuchst du ruhig zu bleiben. Du legst dein eigenes Kräuterpäckchen offen zwischen Geschirr, Küchentücher und Teekannen auf die Anrichte. Immer wieder wandert dein Blick Richtung Tür. Menschen laufen ständig hinein und wieder hinaus. Irgendwo hörst du Martin weiter herumschreien. Du versuchst möglichst unauffällig herauszufinden, wo das andere Bündel gelandet ist.<br><br><strong>19:30 – 19:40 Uhr:</strong><br>Zwischen Küche und Speisesaal herrscht inzwischen völliges Chaos. Mehrere Leute reden gleichzeitig, Geschirr klappert und Martin provoziert fast jeden im Raum. Du bemerkst nur kurz, dass Lena und Paul im Gemeinschaftsraum wegen eines kleinen Stoffpäckchens diskutieren. Dann verschwindet es wieder irgendwo zwischen Jacken, Händen oder unter dem Tisch. Du bleibst ruhig und hältst dich bewusst im Hintergrund. Fast niemand achtet auf dich.<br><br><strong>19:40 – 19:50 Uhr:</strong><br>Irgendwann kommt Rico in die Küche und legt ein kleines blaues Stoffpäckchen auf die Anrichte. Für einen kurzen Moment bleibt dein Blick daran hängen. Ist das das giftige Bündel? Oder dein eigenes? Schnell gibst du beide Kräuter in die Weinflasche. Dein Herz beginnt schneller zu schlagen."
+  },
+  {
+    "id": "pastor",
+    "name": "Pastor (Johannes)",
+    "age": "61",
+    "role": "Er wirkt wie ein gütiger Seelsorger,",
+    "char_desc": "Als Pastor auf dem Jakobsweg hast du für jeden ein offenes Ohr und ein tröstendes Wort. Du wirkst wie ein naiver Seelsorger, der in jedem Menschen nur das Gute sieht. Doch hinter dem gütigen Lächeln verbirgt sich ein knallharter Ermittler der Kirche. Du bist kein einfacher Gemeindepfarrer, sondern arbeitest direkt für das Bistum.",
+    "secrets": "Du bist „Undercover“ auf dem Pilgerweg. Das Bistum hat dich geschickt, um Beweise gegen das Opfer Martin zu sammeln. Es gibt schwerwiegende Gerüchte, dass er Spendengelder veruntreut und Pilger psychisch unter Druck gesetzt hat. Dein Auftrag ist es, ihn zu entlarven bevor es ein öffentlicher Skandal für die Kirche erschüttert. Zudem begleitest du Rico, einen ehemaligen Sträfling, im Rahmen des Resozialierungsprogramms „Pilgern statt Knast“. Du hast Rico ins Herz geschlossen, doch Martin hat herausgefunden, dass Rico einen Rückfall hatte und will ihn hinter Gitter bringen. Für dich ist Martin der Teufel in Person, der jeder auf dieser Reise vernichten möchte. Du willst Rico um jeden Preis schützen. Niemand weiß, dass Rico und du in Verbindung stehen. Für alle seid ihr auf der Reise seid ihr nur gute Weggefährten geworden, die sich vielleicht zu sehr vertrauen.",
+    "relation_martin": "Deine Beziehung zu Martin ist von tiefer Verachtung geprägt. Während du ihm gegenüber einem freundlichen Mitbruder spielst, sammelst du im Hintergrund akribisch Beweise für seine Verbrechen. Sein Umgang mit Rico hat dein Fass zum Überlaufen gebracht.",
+    "motiv": "Dein potenzielles Mordmotiv den drohenden Kirchenskandal endgültig zu vertuschen und gleichzeitig deinen Schützling Rico vor dem Gefängnis zu bewahren.",
+    "main_task": "Du bist nicht der Mörder und darfst nicht lügen. Deine Geheimnisse darfst du nur für dich behalten, besonders die, die als Tatmotiv infrage kommen könnten. Wenn allerdings jemand Beweise für deine Geheimnisse liefert, darfst du nur ohne zu lügen ausweichen oder die Wahrheit offenbaren.",
+    "side_task": "Konzentriere dich auf die Hauptaufgabe und beobachte die anderen verdächtigen Pilger.",
+    "costume": "Du trägst schwarze Kleidung mit dem typischen weißen Einsatz am Kragen. Eine auffällige Kreuzkette um den Hals ist Pflicht. In deinen Händen trägst du ständig eine Bibel oder ein anderes altes, ledergebundenes Buch.",
+    "must_bring": "ein Rucksack.",
+    "relations_others": "<strong>Amina:</strong> Sie sucht auf dem Pilgerweg auf eine<br><br><strong>Lena:</strong> Sie ist als junge fleißige Studentin und<br><br><strong>Monika:</strong> Die trafitionsbewusste Ehefrau<br><br><strong>Paul:</strong> Ein absoluter Sportfreak auf<br><br><strong>Rico:</strong> Ein schweigsamer Mann, der versucht<br><br><strong>Albert:</strong> Der eigenwillige Hobby-Gärtner",
+    "round1": "<strong>17:00 – 17:15 Uhr:</strong><br>Noch bevor du dein Zimmer richtig erreichst, kommt dir Amina genervt auf dem Flur entgegen. Im Zimmer selbst beschwert sich Rico lautstark über ihre Räucherstäbchen. Während du deine Sachen ablegst, beobachtest du die beiden genau. Dabei fällt dir sofort auf, wie nervös Rico wirkt. Außerdem bemerkst du, wie er ein dickes Bündel Bargeld unter seiner Matratze versteckt.<br><br><strong>17:15 – 17:30 Uhr:</strong><br>Du gehst in den Aufenthaltsraum und tust so, als würdest du entspannt in der Bibel lesen. In Wahrheit suchst du aber nach einem geeigneten Platz für deine Minikamera. Schließlich versteckst du sie hinter einigen alten Wanderkarten in einem Regal, damit du später beobachten kannst, wer sich heimlich mit Martin trifft. Dabei bemerkst du nicht, dass Lena dich aus einer Ecke aufmerksam beobachtet. Um keinen Verdacht zu erregen, verlässt du den Raum zügig wieder.<br><br><strong>17:30 – 17:45 Uhr:</strong><br>Du schleichst dich in den Speisesaal, der zu dieser Zeit noch menschenleer ist. Dein Ziel ist es, den Tisch von Martin unter Beobachtung zu stellen. Du verlässt den Raum genau so schnell, wie du ihn betreten hast. Du begibst dich auf die Suche nach Rico, um mit ihm zu reden.",
+    "round2": "<strong>18:00 – 18:20 Uhr:</strong><br>Du sitzt im Beichtstuhl, als eine anonyme Person zu dir kommt. Du kannst nicht sehen, wer es ist, aber die Stimme zittert vor Wut und Verzweiflung. Der Beichtende gesteht keine Taten, sondern Mordfantasien. Du gibst den Segen, bist aber zutiefst alarmiert.<br><br><strong>18:20 – 18:40 Uhr:</strong><br>In deinem Büro beobachtest du über deine versteckten Kameras den Speisesaal. Du siehst Martin und Walentina in einem heftigen Streit. Es geht um fehlende Unterlagen für eine App, die Martin offenbar unterschlagen oder manipuliert hat. Martin wirkt aggressiv und versucht, Walentina einzuschüchtern. Sofort danach greifst du zum Telefon und rufst beim Bistum an. Du präsentierst diesen Betrug als Beweis für Martins Korruption.",
+    "round3": "<strong>19:00 – 19:10 Uhr</strong><br>Die Andacht endet abrupt, als Martin plötzlich laut zu schreien beginnt. Er reißt seinen Rucksack auf und wirft den Inhalt quer durch die Kapelle. „Das ist nicht mein Zeug!“ Mehrere Menschen weichen erschrocken zurück. Du versuchst sofort beruhigend auf ihn einzureden. „Martin, beruhige dich bitte.“ Doch er hört überhaupt nicht zu. „Heute Abend fliegt hier alles auf!“ Seine Aggression wirkt echt. Das beunruhigt dich.<br><br><strong>19:10 – 19:20 Uhr</strong><br>Nachdem die Gruppe die Kapelle verlässt, versuchst du die Situation wieder etwas zu beruhigen. Mehrere Menschen wirken nervös oder verängstigt. Vor allem Martin scheint, sich kaum noch unter Kontrolle zu haben.<br><br><strong>19:20 – 19:30 Uhr</strong><br>Im Gemeinschaftsraum beobachtest du, wie kleine Grüppchen entstehen. Mehrere Leute diskutieren hektisch miteinander. Du versuchst immer wieder die Stimmung zu entspannen, hast aber das Gefühl, dass heute niemand wirklich zuhört.<br><br><strong>19:30 – 19:40 Uhr</strong><br>Martin wird zunehmend aggressiver. Mehrfach musst du dazwischen gehen, weil Diskussionen beinahe eskalieren. Du bemerkst zwar die allgemeine Nervosität der Gruppe, achtest aber kaum auf einzelne Details.<br><br><strong>19:40 – 19:50 Uhr</strong><br>Während des Essens konzentrierst du dich fast nur noch darauf, Martin irgendwie zu beruhigen. Er provoziert inzwischen fast jeden am Tisch. Mehrfach stehst du direkt neben ihm oder hinter seinem Platz."
+  },
+  {
+    "id": "paul",
+    "name": "Paul",
+    "age": "25",
+    "role": "Ein absoluter Sportfreak auf",
+    "char_desc": "Du bist ein absoluter Sportfreak und lebst für die Herausforderung. Dein Ehrgeiz kennt normalerweise keine Grenzen. Nach außen bist du der disziplinierte Profi, der den Erfolg liebt. Doch hinter der Fassade aus Schweiß, steht für dich alles auf dem Spiel. Erfolg ist für dich nicht nur Ruhm, sondern auch eine finanzielle Absicherung.",
+    "secrets": "Du hast einen lukrativen Vertrag mit einem Radsponsor an Land gezogen. Deine Aufgabe: Den Prototyp eines neuen Carbon Rads auf der Strecke von St. Jean Pied de Port, bis Santiago zu testen und das in der Rekordzeit von unter 5 Tagen. Jeder Kilometer wird per GPS getrackt. Die Belohnung sind 80.000€, mit denen du bereits eine Eigentumswohnung angezahlt hast. Doch an Tag 3 passierte der Albtraum: Dein Knie gab auf. Aus purer Verzweiflung hast du begonnen zu betrügen. Du hast Teilstrecken mit dem Bus abgekürzt und das Fahrrad samt GPS auf den Anhänger eines Fahrzeugs gespannt, um 150km weit zu fahren. Du dachtest niemand würde es merken, doch Martin hat dich genau in dem Moment erwischt, als du das Rad am Straßenrand wieder aus dem Anhänger gehoben hast. Es gibt ein Video von diesem Moment. Martin hat dich damit eiskalt erpresst. Rollenbeschreibung Paul",
+    "relation_martin": "Martin ist ein bekannter Pilgerführer, wirkte anfangs nett und zuvorkommend, genau der Typ Mensch, dem man bei einem Glas Wein beim Abendbrot sein Herz öffnet. Im Vertrauen und deiner Euphorie hast du ihm von deinen Plänen, dem Sponsor und deiner Belohnung erzählt. Martin ist berüchtigt dafür, dass er die Geheimnisse, die ihm erzählt werden, später wie eine Waffe gegen einen verwendet wird. Als er dich tatsächlich beim Betrügen am Straßenrand filmte, zeigte er sein wahres, hinterhältiges Gesicht. Aus dem „netten Pilgerführer wurde ein Peiniger.",
+    "motiv": "Du wolltest Martin zum Schweigen bringen, um deine finanzielle Existenz zu retten. Die Angst vor dem Ruin hätte dich in die Enge getrieben",
+    "main_task": "Du bist nicht der Mörder und darfst nicht lügen. Deine Geheimnisse darfst du nur für dich behalten, besonders die, die als Tatmotiv infrage kommen könnten. Wenn allerdings jemand Beweise für deine Geheimnisse liefert, darfst du nur ohne zu lügen ausweichen oder die Wahrheit offenbaren. Für den Anfang pilgerst du als gewöhnlicher Radpilgerer mit dem Ziel nach Compostela zu kommen.",
+    "side_task": "Da du ein Sportler bist, ist Stillstand ein Fremdwort für dich. Du nutzt jede freie Sekunde für exzessives Dehnen. Steh ruhig zwischendurch auf, mach ein paar Ausfallschritte oder lockere deine Waden, während die anderen diskutieren. Dabei schaust du immer wieder zu deiner Armbanduhr, da du schließlich deine Schritte im Blick behalten willst. Um von deinem Geheimnis abzulenken, überspielst du deine Unsicherheit mit Stolz. Prahl mit deiner Schnelligkeit, deinen bisherigen Erfolgen und den unglaublichen Rekordzeiten, die du angeblich auf dem Rad bereit aufgestellt hast. Wir zählen auf deine Kreativität!",
+    "costume": "Dein Erscheinungsbild ist sportlich und funktional. Du trägst Sportkleidung. An deinen Füßen blitzen funktionale Sportschuhe auf. Zu deinem Equipment gehören ein Fahrradhelm und eine sportliche Sonnenbrille, die du am besten gar nicht erst abnimmst.",
+    "must_bring": "ein Rucksack.",
+    "relations_others": "<strong>Amina:</strong> Sie sucht auf dem Pilgerweg auf eine<br><br><strong>Lena:</strong> Sie ist als junge fleißige Studentin und<br><br><strong>Monika:</strong> Die trafitionsbewusste Ehefrau<br><br><strong>Pastor:</strong> Er wirkt wie ein gütiger Seelsorger,<br><br><strong>Rico:</strong> Ein schweigsamer Mann, der versucht<br><br><strong>Albert:</strong> Der eigenwillige Hobby-Gärtner",
+    "round1": "<strong>17:00 – 17:15 Uhr:</strong><br>Du betrittst dein Zimmer, während dein Kopf unangenehm dröhnt. Eigentlich willst du nur kurz ankommen, doch Albert beginnt sofort, sich über deine Taschen sowie dein Fahrrad zu beschweren. Du musst dich zusammenreißen, um nicht laut zu werden. Du siehst, wie deine Busfahrkarte aus dem Rucksack hervorblitzt. Sofort wird dir klar, dass du sie viel zu lange, als „Andenken“ behalten hast.<br><br><strong>17:15 – 17:30 Uhr:</strong><br>Mit deinen Sachen verschwindest du in den Garten. Du hast keine Lust mehr auf Albert und seine Streitereien, weshalb du beschließt, dein Zelt im Garten aufzustellen. Du nutzt den Moment, um die Busfahrkarte und die Taxi-Quittung tief unter deinem Zeltplatz im Dreck verschwinden zu lassen. Dabei bemerkst du Amina, die ebenfalls etwas unter einem Stein vergräbt. Als sich eure Blicke treffen, sieht sie alles andere als begeistert aus.<br><br><strong>17:30 – 17:45 Uhr:</strong><br>Die Tür zum Garten steht noch offen, weshalb du den Streit zwischen Walentina und Martin deutlich mitbekommst. Kurz darauf siehst du durch das große Fenster, wie Walentina hektisch vom Flur in den Aufenthaltsraum läuft. Sie wirkt völlig fertig und zerreißt dabei irgendetwas. Um möglichst ruhig zu wirken, machst du demonstrativ Dehnübungen vor deinem Zelt. Martin lehnt grinsend in der Gartentür und beobachtet dich dabei spöttisch.",
+    "round2": "<strong>18:00 – 18:20 Uhr:</strong><br>Du betrittst dein Zimmer und triffst auf die völlig aufgelöste Lena. Sie weint, weil ihr Vater mit einem Messer vor Martins Tür stand, schwärmt aber gleichzeitig davon, dass sie Martins neues „Werbegesicht“ wird. Du erkennst die Chance: Du musst in ihr Zimmer, um Martins Rucksack zu kriegen. Du überredest sie: „Komm Lena, wasch dir das Gesicht, du willst doch beim Essen hübsch aussehen.“<br><br><strong>18:20 – 18:40 Uhr:</strong><br>Du bringst Lena in ihr Zimmer. Während sie im Bad ist, tauschst du die Rucksäcke aus. Dein alter Rucksack (vollgestopft mit Müll und Blechdosen) steht jetzt bei Martin. Den echten Rucksack von Martin klemmst du dir unter den Arm. Als sie aus dem Badezimmer kommt, drängst du mit dem Aufbruch in die Kapelle.",
+    "round3": "<strong>19:00 – 19:10 Uhr:</strong><br>Die Andacht endet eigentlich ruhig, zumindest für ein paar Sekunden. Niemand sagt etwas, alle stehen noch halb verstreut in der Kapelle, bis plötzlich ein lautes Scheppern durch den Raum hallt. Martin springt abrupt auf, reißt seinen Rucksack an sich und öffnet ihn hektisch direkt vor allen. Zuerst wirkt er nur verwirrt. Dann verändert sich sein Gesicht komplett. „Was ist das für ein Scheiß?!“ Er zieht alte Kleidung, kaputte Gegenstände und irgendwelchen fremden Kram aus dem Rucksack und wirft alles quer durch die Kapelle. Mehrere Leute zucken zusammen, als etwas gegen die Holzbänke knallt. „Das ist NICHT mein Zeug!“ Seine Stimme überschlägt sich fast vor Wut. „Wer von euch war an meinen Sachen?!“ Niemand antwortet. Genau das macht ihn nur noch aggressiver. Er tritt gegen eine Bank und zeigt wütend in die Runde. „Heute Abend beim Essen fallen alle Masken. Ich schwöre euch, ich mache euch alle fertig!“ Du bekommst ernsthaft Angst. Nicht nur wegen seines Geschreis, sondern weil er wirkt, als würde er wirklich komplett die Kontrolle verlieren. Der Pastor versuch die Lage zu entspannen und Martin zu beruhigen. Doch das hilft alles nichts mehr.<br><br><strong>19:10 – 19:20 Uhr:</strong><br>Als alle hektisch aus der Kapelle strömen, willst du einfach nur Abstand von Martin gewinnen. Im Flur herrscht plötzlich Chaos, überall laufen Leute durcheinander. Dann stolpert Amina direkt an dir vorbei. Sie wirkt völlig panisch und schaut sich nicht einmal richtig um. Irgendetwas fällt dabei zu Boden. Du erkennst nur kurz ein kleines blaues Stoffpäckchen. Amina scheint es gar nicht zu bemerken und läuft einfach weiter. Gleichzeitig hörst du Martins Stimme noch aus der Kapelle. Bevor er rauskommt und wieder jemanden anschreit, hebst du das Stoffpäckchen reflexartig auf und steckst es schnell in deine Jackentasche. Eigentlich denkst du dir zuerst nichts dabei. Es fühlt sich einfach nach Kräutern an.<br><br><strong>19:20 – 19:30 Uhr:</strong><br>Im Gemeinschaftsraum fällt Lena irgendwann auf, dass du ungewöhnlich nervös wirkst. Immer wieder greifst du unbewusst an deine Jackentasche. Als beim Hinsetzen kurz ein Stück blauer Stoff sichtbar wird, schaut sie dich sofort misstrauisch an. „Was hast du da?“ Du weichst erst aus, aber Lena bleibt hartnäckig. Schließlich zieht sie dir das kleine Stoffpäckchen praktisch aus der Hand. Als sie daran riecht, runzelt sie die Stirn. Du bist ehrlich gesagt erleichtert, das Ding kurz los zu sein. Irgendetwas daran fühlt sich inzwischen seltsam an, obwohl du nicht einmal sagen kannst warum.<br><br><strong>19:30 – 19:40 Uhr:</strong><br>Kurz bevor alle Richtung Speisesaal gehen, zieht Lena dich plötzlich hektisch zur Seite. Sie wirkt deutlich nervöser als vorher. „Nimm das zurück“, sagt sie schnell. „Ich will damit nichts zu tun haben.“ Erst verstehst du gar nicht, warum sie plötzlich so panisch wirkt. Dann erwähnt sie Walentina. „Sie hat mich direkt darauf angesprochen.“ Jetzt bekommst auch du ein komisches Gefühl. Du steckst das Stoffpäckchen wieder ein, diesmal deutlich vorsichtiger.<br><br><strong>19:40 – 19:50 Uhr:</strong><br>Beim Essen wird die Stimmung immer aggressiver. Martin provoziert inzwischen fast jeden am Tisch. Er schreit den Pastor an, beleidigt Rico und redet ständig davon, dass heute noch alles auffliegen wird. Niemand wirkt noch entspannt. Während eines besonders lauten Streits schiebst du das Stoffpäckchen irgendwann heimlich unter die Tischdecke auf den Boden. Einfach damit du es endlich los bist. Wenig später bemerkst du nur kurz, dass Rico sich unter den Tisch bückt. Mehr denkst du dir dabei nicht."
+  },
+  {
+    "id": "rico",
+    "name": "Rico",
+    "age": "39",
+    "role": "Ein schweigsamer Mann, der versucht",
+    "char_desc": "Du bist ein Mann mit einer harten Vergangenheit. Schwere Körperverletzung, Drogenhandel und Diebstahl prägen deine Gefängnisakte. Dies sind Folgen einer sehr schlimmen Kindheit. Du bist leicht reizbar, manchmal aggressiv und etwas sozial abgeschottet von den anderen.",
+    "secrets": "Deine Vergangenheit soll vor den anderen geheim bleiben. Die anderen denken, dass du aus religiösen Gründen pilgern gehst, um deine Sünden loszuwerden. Du willst dich ändern, nimmst an einem Resozialisierungsprogramm „Pilgern statt Knast“ teil und suchst auf dem Jakobsweg nach Vergebung. Der Pastor ist dein ständiger Wegbegleiter und hilft dir auf deiner Reise. Er ist schon wie ein Vater für dich geworden. Aber auch diese Beziehung muss geheim bleiben. Du bist einsichtig und willst dein Leben ordnen, doch du fällst in alte Muster zurück. Vor zwei Tagen hast du Geld aus der Kasse gestohlen. Dabei war es weder geplant, noch hast du das Geld überhaupt gebraucht. Anschließend hast du das Bündel Geld in deinem Rucksack versteckt. Sollte dieser Rückfall bekannt werden, scheitert dein Programm sofort und du landest ohne Umwege in der Sicherheitsverwahrung. Martin hat dich dabei gesehen. Er hat sich ein wenig über dich informiert und herausgefunden, dass du ein Sträfling bist. Nun will er dich eiskalt einbuchten. Seitdem behandelte dich Martin wie einen Diener. Er ließ dich sämtliche Dinge für ihn erledigen, damit er dein Geheimnis nicht preisgibt.",
+    "relation_martin": "Martin lässt dich nur verzweifeln. Während der Pastor an dich glaubt, sieht Martin in dir den ewigen Verbrecher. Er kennt deinen Fehler und nutzt dieses Wissen als Druckmittel. Für dich ist er eine Bedrohung deiner Freiheit. Du hast ihn zutiefst gefürchtet und gleichzeitig gehasst, weil er dir die Chance auf ein neues Leben nehmen wollte.",
+    "motiv": "Dein Motiv ist pure Angst um deine Freiheit. Wenn Martin dich anzeigt, ist dein Leben vorbei. Die Sicherheitsverwahrung ist deine größte Angst. Man könnte glauben, dass du ihn getötet hast, um den einzigen Zeugen deines Vorfalls zum Schweigen zu bringen und so deine Chance auf die Resozialisierung zu retten.",
+    "main_task": "Du bist nicht der Mörder und darfst nicht lügen. Deine Geheimnisse darfst du nur für dich behalten, besonders die, die als Tatmotiv infrage kommen könnten. Wenn allerdings jemand Beweise für deine Geheimnisse liefert, darfst du nur ausweichen ohne zu lügen oder die Wahrheit zu offenbaren.",
+    "side_task": "Du stehst zwischen deinen Emotionen. Einerseits erklärst du allen, dass du für deine Sünden büßen willst. Andererseits solltest du nervös reagieren, wenn jemand deinem Rucksack zu nahekommt. Verteidige deinen Besitz fast schon aggressiv oder umklammere deinen Rucksack fest, damit niemand das Geld darin entdeckt. Gleichzeitig versuchst du das Geld loszuwerden. Schmuggle es jemanden unter oder frag deinen Vertrauten, den Pastor um Rat. Er kann dir helfen, dass du sauber davonkommst. Zudem darf an diesem Abend keiner wissen, dass du ein Krimineller bist.",
+    "costume": "Dein Outfit ist schlicht, da du seitdem du aus dem Gefängnis kommst, nur ein Paar an Kleidung besitzt. Ein schlichtes dunkles Shirt oder ein Tanktop, eine robuste Jeans/Wanderhose und feste Stiefel passen gut. Eine coole Kette aus dem Knast werten dein Outfit auf.",
+    "must_bring": "ein Rucksack.",
+    "relations_others": "<strong>Amina:</strong> Sie sucht auf dem Pilgerweg auf eine<br><br><strong>Lena:</strong> Sie ist als junge fleißige Studentin und<br><br><strong>Monika:</strong> Die traditionsbewusste Ehefrau<br><br><strong>Pastor:</strong> Er wirkt wie ein gütiger Seelsorger,<br><br><strong>Paul:</strong> Ein absoluter Sportfreak auf<br><br><strong>Albert:</strong> Der eigenwillige Hobby-Gärtner",
+    "round1": "<strong>17:00 – 17:15 Uhr:</strong><br>Du beziehst dein Zimmer und gerätst direkt mit Amina aneinander. Ihr spirituelles Gerede geht dir sofort auf die Nerven. Als sie ihre Räucherstäbchen auspackt, platzt dir der Kragen und du wirfst sie kurzerhand aus dem Zimmer. Dein Bargeld stopfst du zur Sicherheit unter das Kissen. Dabei fällt dir auf, dass der Pastor dich die ganze Zeit genau beobachtet.<br><br><strong>17:15 – 17:30 Uhr:</strong><br>Du gehst den Flur Richtung Speisesaal entlang, auf der Suche nach einem Aschenbecher. Durch einen Türspalt im Speisesaal siehst du Albert. Er steht auffällig ruhig da und greift in eine Besteckschublade. Dabei steckt er sich unauffällig ein Messer steck ein. Währenddessen bemerkst du Monika, die Albert ebenfalls misstrauisch beobachtet. Du findest nirgends einen Aschenbecher und wirst immer nervöser – der Nikotinentzug macht dich unruhig, also streifst du weiter durchs Haus.<br><br><strong>17:30 – 17:45 Uhr:</strong><br>Im Flur läufst du Martin über den Weg, der auffällig locker wirkt und schnell in seinem Zimmer verschwindet. Gleichzeitig hörst du Geschrei aus dem Aufenthaltsraum. Auf der Kommode entdeckst du einen Stapel Papiere. Beim Durchsehen wird dir klar: Die App von Walentina und Martin basiert offenbar auf Betrug. Du willst damit sofort zum Pastor gehen.",
+    "round2": "<strong>18:00 – 18:20 Uhr:</strong><br>Du bist seit der letzten Stunde fast ununterbrochen in der Waschküche. Dein Paranoia ist auf dem Höhepunkt: Du hast das Gefühl, dass Martin jeden Moment dein Zimmer stürmen könnte, um nach den Beweisen oder seinem Geld zu suchen. Deshalb hast du dein gesamtes Bargeld aus deinem Zimmer geholt. Hektisch stopfst du die Geldbündel in einen unscheinbaren Beutel, um ihn zwischen der Schmutzwäsche verschwinden zu lassen. Mitten beim Stopfen geht die Tür auf. Monika kommt rein, um Tischdecken zu holen. Du erstarrst, ein Bündel Geldscheine noch halb in der Hand. Ihr starrt euch an. Du sagst kein Wort, aber dein Blick fleht sie an, dich nicht zu verraten. Monika wirkt selbst abwesend und verstört, aber sie hat definitiv gesehen, was du da tust. Als sie wieder geht, versteckst du den Beutel tief in einem der großen Wäschesäcke.<br><br><strong>18:20 – 18:40 Uhr:</strong><br>Du bleibst noch einen Moment im Schatten der Waschküche, um sicherzugehen, dass die Luft rein ist. Durch das offene Fenster zum Garten hörst du gedämpfte Stimmen. Du siehst Albert, Monika und Amina. Albert wirkt völlig am Ende und übergibt den Frauen kleine blaue Stoffbündel. Du schnappst Worte wie „Beruhigung“ und „Martin“ auf. Dir wird klar: Du bist nicht der Einzige hier, der etwas gegen den Pilgerführer plant.",
+    "round3": "<strong>19:00 – 19:10 Uhr:</strong><br>Eigentlich willst du nach der Andacht einfach nur deine Ruhe haben. Die Stimmung ist sowieso schon angespannt genug. Doch plötzlich springt Martin auf und reißt hektisch seinen Rucksack auf. Zuerst wirkt er nur verwirrt. Dann explodiert er komplett. „Das ist NICHT mein Zeug!“ Er zieht irgendwelche fremden Sachen heraus und wirft sie quer durch die Kapelle. Mehrere Leute weichen erschrocken zurück. Dann bleibt sein Blick plötzlich direkt an dir hängen. „Du warst das doch, Rico!“ Sofort wird die Stimmung zwischen euch aggressiv. Martin kommt bedrohlich nah auf dich zu. „Heute Abend mache ich euch alle fertig!“ Du merkst sofort, dass er heute komplett unberechenbar ist.<br><br><strong>19:10 – 19:20 Uhr:</strong><br>Im Haus herrscht plötzlich überall hektische Bewegung. Menschen laufen durcheinander, Türen schlagen zu und aus der Kapelle hört man Martin noch immer herumschreien. Du versuchst, dich möglichst aus allem rauszuhalten. Ganz ehrlich: Du hast keine Lust, heute noch weiter mit Martin aneinanderzugeraten.<br><br><strong>19:20 – 19:30 Uhr:</strong><br>Beim Anrichten hilfst du Monika in der Küche Im Gegensatz zu allen anderen wirkt sie erstaunlich ruhig. Fast schon unbeteiligt. Zwischen Geschirr, Tüchern und Teekannen liegt irgendwann kurz ein kleines blaues Stoffpäckchen auf der Küchenanrichte. Du schenkst dem allerdings kaum Aufmerksamkeit. Für dich sieht es einfach nach irgendwelchen Küchenkräutern aus. Im Hintergrund hörst du weiter Martins laute Stimme aus dem Speisesaal.<br><br><strong>19:30 – 19:40 Uhr:</strong><br>Immer mehr Leute laufen hektisch zwischen Küche und Speisesaal hin und her. Die Stimmung wird zunehmend unangenehm. Du bemerkst nur nebenbei im Gemeinschaftsraum, dass Paul und Lena offenbar Streit wegen irgendetwas haben. Beide wirken auffällig nervös. Aber ehrlich gesagt interessiert dich gerade mehr, wann Martin endlich aufhört herumzuschreien.<br><br><strong>19:40 – 19:50 Uhr:</strong><br>Während des Essens bemerkst du plötzlich unter dem Tisch ein kleines blaues Stoffpäckchen. Wahrscheinlich ist es einfach heruntergefallen, denkst du. Du hebst es automatisch auf. Als du kurz daran riechst, bemerkst du starke Kräuter darin. Ohne groß darüber nachzudenken bringst du das Päckchen in die Küche und legst es dort einfach zwischen Geschirr und Küchentücher auf die Anrichte. Monika steht gerade am Tee und reagiert kaum darauf. Das Ganze wirkt völlig nebensächlich."
+  },
+  {
+    "id": "walentina",
+    "name": "Walentina",
+    "age": "??",
+    "role": "Pilger auf dem Jakobsweg",
+    "char_desc": "Du bist ein Promi und eine bekannte Influencerin. Dein Leben findet hauptsächlich online statt und du bist es gewohnt, im Mittelpunkt zu stehen. Du bist oberflächlich, laut und inszenierst jede Sekunde deines Alltags für deine Follower. Zurzeit promotest du die PilgerApp „Echte Spiritualität in 30 Tagen“. Du postest ständig, wie diese App dein Leben gerettet hat. Doch alles ist ein Teil deiner eiskalten Inszenierung.",
+    "secrets": "Du steckst mit Martin unter einer Decke. Gemeinsam habt ihr die App entwickelt. Während Martin gefälschte Bewertungen und die Blogeinträge schreibt und du als Werbegesicht fungierst, ist die App in Wahrheit ein Betrugstool. Sie sammelt nicht nur die Abogebühren, sondern greift heimlich die Kreditkartendaten der Nutzer ab. Gleichzeitig führtest du eine Liebesbeziehung zu Martin, die ihr auf eurer App präsentiert. Die Leute kaufen eine spirituelle App viel eher, wenn sie an die große wahre Liebe auf dem Jakobsweg glauben. Eure Liebesgeschichte auf dem Jakobsweg ist für die Fans erfunden, um die App besser zu verkaufen. Du bist tatsächlich in Martin verliebt. Doch vor dem Abendessen hat er dich eiskalt abserviert. Er hat kein Interesse an dir und möchte dein Werbegesicht de r App durch eine jüngere Influencerin ersetzen. Du bist am Boden zerstört.",
+    "relation_martin": "Nach außen seid ihr das „Traumpaar“ des Caminos. In der Realität war eure Beziehung toxisch. Martin war sehr kontrollierend und kritisierte ständig dein Aussehen. Du schwankst ständig zwischen extremer Anhänglichkeit und totaler Genervtheit. Ihr streitet nur noch aber vor der Kamera ist davon nichts zu sehen. Trotzalledem versuchst du dich ihm anzunähern, denn in Anwesenheit von Mitpilgerern erfährst du unfassbar viel Liebe und Zärtlichkeit, die deinen Funken überspringen lässt. Nachdem er dich am Abend abserviert hat, hat sich deine Liebe zu ihm in tiefen Hass erfüllt. Dein potentielles Mordmotiv: Dein Motiv ist eine Mischung aus Rache und Existenzangst. Martin wollte dich nicht nur als Frau, sondern auch als Geschäftspartnerin absägen. Wenn er dich ersetzt hätte, wäre dein Image zerstört und dein Anteil am App Betrug in Gefahr.",
+    "motiv": "Kein offensichtliches Motiv bekannt.",
+    "main_task": "Du bist nicht der Mörder und darfst nicht lügen. Deine Geheimnisse darfst du nur für dich behalten, besonders die, die als Tatmotiv infrage kommen könnten. Wenn allerdings jemand Beweise für deine Geheimnisse liefert, darfst du nur ohne zu lügen ausweichen oder die Wahrheit offenbaren.",
+    "side_task": "Konzentriere dich auf die Hauptaufgabe und beobachte die anderen verdächtigen Pilger.",
+    "costume": "Dein Look ist das komplette Gegenteil von funktional. Du trägst ein unpraktisches Designer Outfit, zum Beispiel ein schickes Kleid oder eine weiße Stoffhose, die eigentlich schmutzig werden würde. Statt Wanderschuhen trägst du Sandalen oder Sneaker, die völlig ungeeignet sind. Du bist perfekt gestylt, als würdest du auf ein Event gehen. Trage gerne viel Schmuck. Dein wichtigstes Accessoire ist dein Handy, dass du für deine Vlogs brauchst.",
+    "must_bring": "ein Rucksack.",
+    "relations_others": "<strong>Amina:</strong> Sie sucht auf dem Pilgerweg auf eine<br><br><strong>Lena:</strong> Sie ist als junge fleißige Studentin und<br><br><strong>Monika:</strong> Die trafitionsbewusste Ehefrau<br><br><strong>Pastor:</strong> Er wirkt wie ein gütiger Seelsorger,<br><br><strong>Paul:</strong> Ein absoluter Sportfreak auf<br><br><strong>Rico:</strong> Ein schweigsamer Mann, der versucht<br><br><strong>Albert:</strong> Der eigenwillige Hobby-Gärtner",
+    "round1": "<strong>17:00 – 17:15 Uhr:</strong><br>Du beziehst dein Zimmer und bist sofort genervt, weil du das Zimmer ausgerechnet mit Lena teilen musst. Kaum verlässt sie kurz den Raum, nutzt du die Gelegenheit und öffnest Martins Unterlagen zur App: Verträge, Dokumente, Verlängerungen – du überfliegst alles hektisch und nimmst einige Papiere an dich. Eigentlich willst du Martin zur Rede stellen, doch tief in dir geht es vor allem darum, endlich wieder seine Aufmerksamkeit zu bekommen.<br><br><strong>17:15 – 17:30 Uhr:</strong><br>Im Flur, nahe der offenen Tür zum kleinen Garten, triffst du schließlich auf Martin. Du willst ihn gerade umarmen und dich an ihn schmiegen, doch er stößt dich plötzlich kalt zurück. Dann erklärt er dir ohne jede Emotion, dass die Zusammenarbeit an der App beendet sei. Er wolle dich durch jemand Jüngeres ersetzen. Eure Beziehung sei damit ebenfalls vorbei. Für dein „nicht vorhandenes Talent“ könne er dir ohnehin keine Gage zahlen.Die Worte treffen dich wie ein Schlag. Voller Wut knallst du die Betrugsdokumente und den Verlängerungsvertrag auf eine Kommode und rennst völlig aufgelöst in den Aufenthaltsraum.<br><br><strong>17:30 – 17:45 Uhr:</strong><br>Im Aufenthaltsraum sitzt du schließlich in einer Ecke und zerreißt unter Tränen ein Foto von dir und Martin. Amina kommt herein und versucht dich mit ihrem spirituellen Gerede zu beruhigen. Doch du fährst sie sofort an: „Halt die Klappe! Ich weiß genau, dass Martin dir Nachrichten schickt. Er macht uns alle fertig!“ Währenddessen fällt dein Blick durch das Fenster in den Garten. Dort beobachtest du Albert, der sich verdächtig an Martins Fahrrad zu schaffen macht. Es wirkt fast so, als würde er absichtlich etwas sabotieren.",
+    "round2": "<strong>18:00 – 18:20 Uhr:</strong><br>Du stehst im Schatten und beobachtest die Szene: Martin demütigt die völlig aufgelöste Amina, die daraufhin Richtung Kapelle flüchtet. Als Martin sich abwendet, trittst du vor. Doch er würdigt dich kaum eines Blickes: „Nicht jetzt, Walentina. Ich muss in den Speisesaal, meine Unterlagen auf der Kommode prüfen.“ Er lässt dich einfach stehen.<br><br><strong>18:20 – 18:40 Uhr:</strong><br>Du folgst Martin wütend in den Speisesaal und beobachtest, wie er hektisch die Kommode absucht. Er wirft Tischtücher beiseite und wühlt in den Schubladen. Er sucht verzweifelt die Betrugsdokumente und Verträge, mit denen er euch alle erpresst. Du stehst einfach nur da und genießt seine wachsende Panik. Schließlich wirbelt er herum, funkelt dich mit hasserfüllten Augen an und schreit: „Wo sind sie, Walentina?! Hast du die Papiere eingesteckt? Wenn du versuchst, mich zu bestehlen, sorge ich dafür, dass du nie wieder einen Fuß in dieses Business setzt!“ Er packt dich grob an den Schultern und schüttelt dich fest. Du lachst ihm nur kalt ins Gesicht, was ihn noch wütender macht.",
+    "round3": "<strong>19:00 – 19:10 Uhr:</strong><br>Du beobachtest ruhig, wie die Stimmung nach der Andacht langsam kippt. Dann zerreißt plötzlich lautes Geschrei die Stille. Martin springt auf, reißt seinen Rucksack an sich und beginnt sofort herumzubrüllen. „Das ist nicht mein Zeug!“ Er wirft Gegenstände quer durch die Kapelle und beschuldigt praktisch jeden im Raum. Besonders interessant findest du allerdings nicht seinen Wutanfall — sondern die Reaktionen der anderen. Fast alle wirken plötzlich nervös. Einige fast panisch. Das fällt dir sofort auf.<br><br><strong>19:10 – 19:20 Uhr:</strong><br>Im Flur herrscht plötzlich hektisches Chaos. Menschen laufen durcheinander, mehrere reden gleichzeitig und Martin schreit noch immer irgendwo im Hintergrund. Dabei fällt dir kurz auf, wie Paul etwas Kleines vom Boden aufhebt und schnell verschwinden lässt. Du erkennst nur einen kurzen blauen Stofffetzen. Mehr allerdings nicht.<br><br><strong>19:20 – 19:30 Uhr:</strong><br>Später beobachtest du zufällig, wie Lena Paul etwas Kleines aus der Hand nimmt. Beide wirken plötzlich auffällig angespannt. Normalerweise wäre das wahrscheinlich völlig belanglos. Aber heute wirkt ohnehin jeder verdächtig. Deshalb bleibt dir die Szene im Kopf.<br><br><strong>19:30 – 19:40 Uhr:</strong><br>Du sprichst Lena irgendwann direkt darauf an. Eigentlich eher beiläufig. „Warum seid ihr beide plötzlich so nervös wegen dieses kleinen Bündels?“ Sofort verändert sich ihre Reaktion. Sie wirkt plötzlich angespannt und drückt Paul das Stoffpäckchen hektisch zurück in die Hand. Genau diese Nervosität macht dich misstrauisch. Nicht das Bündel selbst.<br><br><strong>19:40 – 19:50 Uhr:</strong><br>Im Speisesaal eskaliert die Stimmung immer weiter. Martin schreit inzwischen fast ohne Pause herum. Zwischendurch bemerkst du nur kurz, wie Rico sich unter den Tisch bückt und später Richtung Küche geht. Monika läuft dabei ruhig zwischen Küche und Speisesaal hin und her."
+  }
+];
+
+// --- 2. DYNAMICALLY GENERATE CHARACTER CARDS ---
+function renderCharacterGrid() {
+  const grid = document.getElementById('character-grid');
+  if (!grid) return;
+
+  grid.innerHTML = '';
+
+  charactersData.forEach(char => {
+    const card = document.createElement('div');
+    card.className = 'character-card';
+    card.setAttribute('data-id', char.id);
+    
+    // Check if an image is provided, otherwise render a beautiful SVG placeholder
+    let imageHTML = '';
+    const localImagePath = `assets/characters/${char.id}.png`;
+    
+    // We check if we have pre-loaded portraits. Albert, clara, benedikt, thomas exist.
+    const hasImage = ["albert", "clara", "benedikt", "thomas"].includes(char.id);
+    
+    if (hasImage) {
+      imageHTML = `<img src="${localImagePath}" alt="${char.name}" class="character-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
+                   <svg class="character-placeholder-svg" style="display:none;" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 3c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm0 14.2c-2.5 0-4.71-1.28-6-3.22.03-1.99 4-3.08 6-3.08 1.99 0 5.97 1.09 6 3.08-1.29 1.94-3.5 3.22-6 3.22z"/></svg>`;
+    } else {
+      imageHTML = `<svg class="character-placeholder-svg" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 3c1.66 0 3 1.34 3 3s-1.34 3-3 3-3-1.34-3-3 1.34-3 3-3zm0 14.2c-2.5 0-4.71-1.28-6-3.22.03-1.99 4-3.08 6-3.08 1.99 0 5.97 1.09 6 3.08-1.29 1.94-3.5 3.22-6 3.22z"/></svg>`;
+    }
+
+    card.innerHTML = `
+      <div class="character-frame">
+        ${imageHTML}
+      </div>
+      <div class="character-role-title">Alter: ${char.age} Jahre</div>
+      <h3 class="character-name">${char.name}</h3>
+      <p class="character-short-desc">${char.role}</p>
+      <div class="character-meta">Rolle freischalten</div>
+    `;
+
+    // Click handler to open dialog
+    card.addEventListener('click', () => openCharacterModal(char.id));
+    grid.appendChild(card);
+  });
+}
+
+// --- 3. MODAL DIALOG CONTROLS ---
+function openCharacterModal(charId) {
+  const char = charactersData.find(c => c.id === charId);
+  if (!char) return;
+
+  const dialog = document.getElementById('character-dialog');
+  if (!dialog) return;
+
+  // Insert modal content
+  document.getElementById('modal-char-name').innerText = char.name;
+  document.getElementById('modal-char-role').innerText = `Alter: ${char.age} | ${char.role}`;
+  
+  const publicTab = document.getElementById('tab-public');
+  const secretTab = document.getElementById('tab-secret');
+
+  // Render Public Profile Tab
+  publicTab.innerHTML = `
+    <div class="public-profile-content">
+      <div class="profile-section" style="margin-bottom: 1.5rem;">
+        <h4 style="color: var(--accent-gold-dark); border-bottom: 1px solid var(--border-sep); padding-bottom: 0.3rem; margin-bottom: 0.5rem; text-transform: uppercase; font-size: 0.9rem;">Hintergrund</h4>
+        <p style="font-family: var(--font-serif); font-size: 1.05rem; line-height: 1.6;">${char.char_desc}</p>
+      </div>
+      
+      <div class="profile-section" style="margin-bottom: 1.5rem;">
+        <h4 style="color: var(--accent-gold-dark); border-bottom: 1px solid var(--border-sep); padding-bottom: 0.3rem; margin-bottom: 0.5rem; text-transform: uppercase; font-size: 0.9rem;">Öffentlich bekannte Ausrüstung &amp; Kostüm</h4>
+        <p>${char.costume}</p>
+        <p style="margin-top: 0.5rem;"><strong>Ausrüstungsgegenstand:</strong> ${char.must_bring}</p>
+      </div>
+    </div>
+  `;
+  
+  // Render Secret Booklet Companion Tab (Initially locked with Spoiler Protection)
+  secretTab.innerHTML = `
+    <div class="secret-lock" id="secret-lock-${char.id}">
+      <div class="secret-lock-title">🚨 Spoilerschutz-Sperre!</div>
+      <p class="secret-lock-desc">Dieses digitale Heft enthält alle geheimen Spielinformationen, Ziele, Beziehungen und den zeitlichen Ablauf für die einzelnen Runden. Bitte nur öffnen, wenn du diese Rolle heute Abend spielst!</p>
+      <button class="btn btn-primary btn-reveal-secret" data-id="${char.id}">Rollenheft öffnen &amp; Geheimnis enthüllen</button>
+    </div>
+    <div class="secret-content" id="secret-content-${char.id}">
+      <!-- Sub-Tabs Navigation for Secret Companion -->
+      <div class="sub-tabs" style="display: flex; gap: 0.5rem; border-bottom: 1px solid var(--border-sep); padding-bottom: 0.5rem; margin-bottom: 1rem; overflow-x: auto;">
+        <button class="sub-tab-btn active" data-target="sec-info-${char.id}" style="background: none; border: none; padding: 0.4rem 0.8rem; font-family: var(--font-sans); font-weight: 700; font-size: 0.8rem; text-transform: uppercase; cursor: pointer; color: var(--text-muted); border-bottom: 2px solid transparent;">Geheimnis &amp; Aufgaben</button>
+        <button class="sub-tab-btn" data-target="sec-rel-${char.id}" style="background: none; border: none; padding: 0.4rem 0.8rem; font-family: var(--font-sans); font-weight: 700; font-size: 0.8rem; text-transform: uppercase; cursor: pointer; color: var(--text-muted); border-bottom: 2px solid transparent;">Beziehungen</button>
+        <button class="sub-tab-btn" data-target="sec-rd1-${char.id}" style="background: none; border: none; padding: 0.4rem 0.8rem; font-family: var(--font-sans); font-weight: 700; font-size: 0.8rem; text-transform: uppercase; cursor: pointer; color: var(--text-muted); border-bottom: 2px solid transparent;">Runde 1</button>
+        <button class="sub-tab-btn" data-target="sec-rd2-${char.id}" style="background: none; border: none; padding: 0.4rem 0.8rem; font-family: var(--font-sans); font-weight: 700; font-size: 0.8rem; text-transform: uppercase; cursor: pointer; color: var(--text-muted); border-bottom: 2px solid transparent;">Runde 2</button>
+        <button class="sub-tab-btn" data-target="sec-rd3-${char.id}" style="background: none; border: none; padding: 0.4rem 0.8rem; font-family: var(--font-sans); font-weight: 700; font-size: 0.8rem; text-transform: uppercase; cursor: pointer; color: var(--text-muted); border-bottom: 2px solid transparent;">Runde 3</button>
+      </div>
+
+      <!-- Sub-Tab 1: Secrets & Tasks -->
+      <div class="sub-tab-panel active" id="sec-info-${char.id}">
+        <h4 style="color: var(--primary-blood); margin-bottom: 0.5rem; text-transform: uppercase; font-size: 0.9rem;">Dein Geheimnis</h4>
+        <p style="font-family: var(--font-serif); font-size: 1rem; line-height: 1.6; margin-bottom: 1rem; padding: 0.8rem; border-left: 3px solid var(--primary-blood); background: rgba(140,29,29,0.02);">${char.secrets}</p>
+        
+        <h4 style="color: var(--accent-gold-dark); margin-bottom: 0.3rem; text-transform: uppercase; font-size: 0.85rem;">Beziehung zu Martin (Opfer)</h4>
+        <p style="margin-bottom: 1rem; font-size: 0.95rem;">${char.relation_martin}</p>
+        
+        <h4 style="color: var(--accent-gold-dark); margin-bottom: 0.3rem; text-transform: uppercase; font-size: 0.85rem;">Dein potenzielles Mordmotiv</h4>
+        <p style="margin-bottom: 1rem; font-size: 0.95rem;">${char.motiv}</p>
+
+        <h4 style="color: var(--accent-gold-dark); margin-bottom: 0.3rem; text-transform: uppercase; font-size: 0.85rem;">Hauptaufgabe</h4>
+        <p style="margin-bottom: 1rem; font-size: 0.95rem; font-weight: 600;">${char.main_task}</p>
+
+        <h4 style="color: var(--accent-gold-dark); margin-bottom: 0.3rem; text-transform: uppercase; font-size: 0.85rem;">Nebenaufgabe</h4>
+        <p style="font-size: 0.95rem;">${char.side_task}</p>
+      </div>
+
+      <!-- Sub-Tab 2: Relationships -->
+      <div class="sub-tab-panel" id="sec-rel-${char.id}" style="display:none;">
+        <h4 style="color: var(--accent-gold-dark); margin-bottom: 0.8rem; text-transform: uppercase; font-size: 0.9rem; border-bottom: 1px solid var(--border-sep); padding-bottom: 0.3rem;">Deine Beziehung zu den Verdächtigen</h4>
+        <div style="font-size: 0.95rem; line-height: 1.6;">${char.relations_others}</div>
+      </div>
+
+      <!-- Sub-Tab 3: Round 1 Timeline -->
+      <div class="sub-tab-panel" id="sec-rd1-${char.id}" style="display:none;">
+        <div class="round-card-info" style="background: var(--bg-parchment); border: 1px solid var(--border-sep); padding: 0.8rem 1rem; border-radius: 4px; font-size: 0.85rem; margin-bottom: 1rem; font-weight: 700; color: var(--primary-blood);">
+          📢 VORSCHRIFT FÜR RUNDE 1: Teile der Gruppe mit, was du zwischen 17:00 und 18:00 Uhr gemacht hast. Lasse verdächtige Details geschickt aus!
+        </div>
+        <div style="line-height: 1.6; font-size: 0.95rem;">${char.round1 ? char.round1 : "Du bist um 17:00 Uhr in der Herberge angekommen, hast dein Zimmer bezogen und dich beim Abendessen im Speisesaal eingefunden. Nichts Verdächtiges vorgefallen."}</div>
+      </div>
+
+      <!-- Sub-Tab 4: Round 2 Timeline -->
+      <div class="sub-tab-panel" id="sec-rd2-${char.id}" style="display:none;">
+        <div class="round-card-info" style="background: var(--bg-parchment); border: 1px solid var(--border-sep); padding: 0.8rem 1rem; border-radius: 4px; font-size: 0.85rem; margin-bottom: 1rem; font-weight: 700; color: var(--primary-blood);">
+          📢 VORSCHRIFT FÜR RUNDE 2: Berichte der Gruppe über deinen Ablauf von 18:00 bis 19:00 Uhr. Tausche dich über die neuen Motive aus.
+        </div>
+        <div style="line-height: 1.6; font-size: 0.95rem;">${char.round2 ? char.round2 : "Zwischen 18:00 und 19:00 Uhr hast du dich im Aufenthaltsraum entspannt oder an der Andacht in der Kapelle teilgenommen. Du hast keine verdächtigen Aktivitäten beobachtet."}</div>
+      </div>
+
+      <!-- Sub-Tab 5: Round 3 Timeline -->
+      <div class="sub-tab-panel" id="sec-rd3-${char.id}" style="display:none;">
+        <div class="round-card-info" style="background: var(--bg-parchment); border: 1px solid var(--border-sep); padding: 0.8rem 1rem; border-radius: 4px; font-size: 0.85rem; margin-bottom: 1rem; font-weight: 700; color: var(--primary-blood);">
+          📢 VORSCHRIFT FÜR RUNDE 3: Das ist die letzte Diskussionsrunde (19:00 bis 20:00 Uhr) vor der großen Anklage. Versuche den wahren Mörder zu entlarven!
+        </div>
+        <div style="line-height: 1.6; font-size: 0.95rem;">${char.round3 ? char.round3 : "Um 19:00 Uhr begann der Tumult, als Martin merkte, dass sein Rucksack vertauscht wurde. Um 19:50 Uhr fiel er am Tisch hustend um. Oktopus-Geruch lag in der Luft. Wer hat das Gift verabreicht?"}</div>
+      </div>
+
+      <button class="btn btn-secondary btn-lock-secret" data-id="${char.id}" style="margin-top: 2rem; width: 100%;">Geheimnis wieder sperren &amp; Spoilerschutz aktivieren</button>
+    </div>
+  `;
+
+  // Attach event listeners for reveal/lock buttons
+  secretTab.querySelector('.btn-reveal-secret').addEventListener('click', () => {
+    document.getElementById(`secret-lock-${char.id}`).style.display = 'none';
+    document.getElementById(`secret-content-${char.id}`).style.display = 'block';
+  });
+
+  secretTab.querySelector('.btn-lock-secret').addEventListener('click', () => {
+    document.getElementById(`secret-lock-${char.id}`).style.display = 'block';
+    document.getElementById(`secret-content-${char.id}`).style.display = 'none';
+  });
+
+  // Attach event listeners for sub-tabs inside secret tab
+  const subTabButtons = secretTab.querySelectorAll('.sub-tab-btn');
+  const subTabPanels = secretTab.querySelectorAll('.sub-tab-panel');
+
+  subTabButtons.forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      // Reset active state for buttons
+      subTabButtons.forEach(b => {
+        b.classList.remove('active');
+        b.style.borderBottomColor = 'transparent';
+        b.style.color = 'var(--text-muted)';
+      });
+      
+      // Set active state for clicked button
+      btn.classList.add('active');
+      btn.style.borderBottomColor = 'var(--primary-blood)';
+      btn.style.color = 'var(--primary-blood)';
+      
+      // Hide all panels
+      subTabPanels.forEach(p => p.style.display = 'none');
+      
+      // Show targeted panel
+      const targetId = btn.getAttribute('data-target');
+      document.getElementById(targetId).style.display = 'block';
+    });
+  });
+
+  // Apply default styles to the first subtab button
+  const firstSubTab = subTabButtons[0];
+  if (firstSubTab) {
+    firstSubTab.style.borderBottomColor = 'var(--primary-blood)';
+    firstSubTab.style.color = 'var(--primary-blood)';
+  }
+
+  // Reset active main tab to public profile
+  switchTab('public');
+
+  // Open modal native API
+  dialog.showModal();
+}
+
+function closeModal() {
+  const dialog = document.getElementById('character-dialog');
+  if (dialog) {
+    dialog.close();
+  }
+}
+
+// Switch tabs inside modal
+function switchTab(tabType) {
+  const btnPublic = document.getElementById('tab-btn-public');
+  const btnSecret = document.getElementById('tab-btn-secret');
+  const contentPublic = document.getElementById('tab-public');
+  const contentSecret = document.getElementById('tab-secret');
+
+  if (tabType === 'public') {
+    btnPublic.classList.add('active');
+    btnSecret.classList.remove('active');
+    contentPublic.classList.add('active');
+    contentSecret.classList.remove('active');
+  } else {
+    btnPublic.classList.remove('active');
+    btnSecret.classList.add('active');
+    contentPublic.classList.remove('active');
+    contentSecret.classList.add('active');
+  }
+}
+
+// --- 4. INTERACTIVE EVIDENCE BOARD ---
+function setupEvidenceBoard() {
+  const notes = document.querySelectorAll('.evidence-note');
+  notes.forEach(note => {
+    note.addEventListener('click', () => {
+      // Toggle a larger view / simple highlight style
+      if (note.classList.contains('zoomed')) {
+        note.classList.remove('zoomed');
+        note.style.transform = '';
+      } else {
+        // Remove zoomed from all others
+        notes.forEach(n => {
+          n.classList.remove('zoomed');
+          n.style.transform = '';
+          n.style.zIndex = '5';
+        });
+        note.classList.add('zoomed');
+        note.style.transform = 'scale(1.15) rotate(0deg)';
+        note.style.zIndex = '90';
+      }
+    });
+  });
+
+  // Close zoomed notes when clicking elsewhere on corkboard
+  const corkboard = document.querySelector('.corkboard');
+  if (corkboard) {
+    corkboard.addEventListener('click', (e) => {
+      if (!e.target.closest('.evidence-note')) {
+        notes.forEach(note => {
+          note.classList.remove('zoomed');
+          note.style.transform = '';
+          note.style.zIndex = '5';
+        });
+      }
+    });
+  }
+}
+
+// --- 5. ACCORDION CONTROLS (Host Area) ---
+function setupAccordions() {
+  const triggers = document.querySelectorAll('.accordion-trigger');
+  
+  triggers.forEach(trigger => {
+    trigger.addEventListener('click', () => {
+      const panel = trigger.nextElementSibling;
+      const isActive = trigger.classList.contains('active');
+      
+      // Close all accordions
+      triggers.forEach(t => {
+        t.classList.remove('active');
+        t.nextElementSibling.classList.remove('show');
+        t.nextElementSibling.style.maxHeight = null;
+      });
+      
+      // Toggle current
+      if (!isActive) {
+        trigger.classList.add('active');
+        panel.classList.add('show');
+        panel.style.maxHeight = panel.scrollHeight + "px";
+      }
+    });
+  });
+}
+
+// --- 6. BACKGROUND AUDIO PLAYBACK ---
+let ambientAudio = null;
+let isAudioPlaying = false;
+
+function setupAudioPlayer() {
+  const audioBtn = document.getElementById('audio-toggle-btn');
+  const audioText = document.getElementById('audio-status-text');
+  
+  if (!audioBtn) return;
+
+  // Create native HTML5 audio object with a copyright-free Spanish nylon guitar loop
+  // Falls die URL ungültig wird, fängt der Error-Handler das ab und simuliert die Wiedergabe
+  ambientAudio = new Audio('https://www.soundhelix.com/examples/mp3/SoundHelix-Song-8.mp3'); 
+  ambientAudio.loop = true;
+  ambientAudio.volume = 0.25; // Quiet background level
+
+  audioBtn.addEventListener('click', () => {
+    if (isAudioPlaying) {
+      ambientAudio.pause();
+      isAudioPlaying = false;
+      audioText.innerText = "Musik Aus";
+      audioBtn.innerHTML = `<svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>`;
+    } else {
+      ambientAudio.play().then(() => {
+        isAudioPlaying = true;
+        audioText.innerText = "Musik Ein";
+        audioBtn.innerHTML = `<svg viewBox="0 0 24 24"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/></svg>`;
+      }).catch(err => {
+        // Fallback for browser blocking or missing network
+        console.warn("Audio autoplay blocked or file unavailable. Simulating play state.", err);
+        isAudioPlaying = true;
+        audioText.innerText = "Musik Ein (Simuliert)";
+        audioBtn.innerHTML = `<svg viewBox="0 0 24 24"><path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"/></svg>`;
+      });
+    }
+  });
+}
+
+// --- 7. INITIALIZE ON DOCUMENT LOAD ---
+document.addEventListener('DOMContentLoaded', () => {
+  renderCharacterGrid();
+  setupEvidenceBoard();
+  setupAccordions();
+  setupAudioPlayer();
+
+  // Attach static event listeners
+  const modalCloseBtn = document.getElementById('dialog-close-btn');
+  if (modalCloseBtn) {
+    modalCloseBtn.addEventListener('click', closeModal);
+  }
+
+  const tabBtnPublic = document.getElementById('tab-btn-public');
+  if (tabBtnPublic) {
+    tabBtnPublic.addEventListener('click', () => switchTab('public'));
+  }
+
+  const tabBtnSecret = document.getElementById('tab-btn-secret');
+  if (tabBtnSecret) {
+    tabBtnSecret.addEventListener('click', () => switchTab('secret'));
+  }
+});

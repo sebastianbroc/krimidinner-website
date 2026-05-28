@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buen Camino, Tod! - Das Pilger-Krimidinner für Zuhause</title>
+  <meta name="description" content="Ein packendes Krimidinner auf dem Jakobsweg. Schlüpft in die Rollen verdächtiger Pilger, lüftet Geheimnisse an der Albergue und entlarvt den Mörder.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header>
+    <div class="container nav-container">
+      <a href="#" class="logo" id="nav-logo" aria-label="Buen Camino, Tod! Startseite">
+        <!-- Jakobsmuschel SVG Logo -->
+        <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+          <path d="M50 5C53 15 57 25 62 33C67 41 73 48 80 54C87 60 93 64 95 67C92 70 85 73 76 75C67 77 58 78 50 78C42 78 33 77 24 75C15 73 8 70 5 67C7 64 13 60 20 54C27 48 33 41 38 33C43 25 47 15 50 5Z" stroke="#c29753" stroke-width="2" stroke-linejoin="round"/>
+          <path d="M50 5V78" stroke="#c29753" stroke-width="2"/>
+          <path d="M50 5C47 25 39 45 24 60" stroke="#c29753" stroke-width="1.5"/>
+          <path d="M50 5C53 25 61 45 76 60" stroke="#c29753" stroke-width="1.5"/>
+          <path d="M50 5C44 25 28 42 8 50" stroke="#c29753" stroke-width="1.5"/>
+          <path d="M50 5C56 25 72 42 92 50" stroke="#c29753" stroke-width="1.5"/>
+          <path d="M5 67C10 77 20 86 35 91C40 93 45 94 50 94C55 94 60 93 65 91C80 86 90 77 95 67" stroke="#c29753" stroke-width="2" fill="none"/>
+        </svg>
+        <div class="logo-text">Buen Camino, <span>Tod!</span></div>
+      </a>
+      <nav aria-label="Hauptnavigation">
+        <ul>
+          <li><a href="#characters">Charaktere</a></li>
+          <li><a href="#case">Der Fall</a></li>
+          <li><a href="#rules">Ablauf</a></li>
+          <li><a href="#host">Spielleiter</a></li>
+          <li><a href="#menu">Kulinarisches</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <!-- Blutspritzer SVG (Vektor-Deko im Stil des Heftcovers) -->
+    <svg class="hero-blood-splatter" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+      <path d="M40 30 C 35 15, 20 10, 15 25 C 10 40, 25 50, 35 45 C 45 40, 50 45, 55 55 C 60 65, 75 70, 80 55 C 85 40, 70 30, 60 35 C 50 40, 45 35, 40 30 Z" fill="#8c1d1d" opacity="0.85"/>
+      <circle cx="12" cy="18" r="4" fill="#8c1d1d"/>
+      <circle cx="28" cy="8" r="2" fill="#8c1d1d"/>
+      <circle cx="70" cy="65" r="3.5" fill="#8c1d1d"/>
+      <circle cx="85" cy="40" r="5" fill="#8c1d1d"/>
+      <circle cx="58" cy="20" r="2.5" fill="#8c1d1d"/>
+      <path d="M 35 45 Q 20 60, 15 75" stroke="#8c1d1d" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+      <path d="M 55 55 Q 65 80, 80 85" stroke="#8c1d1d" stroke-width="2" stroke-linecap="round" fill="none"/>
+    </svg>
+
+    <div class="container">
+      <div class="hero-subtitle">Ein Pilger-Krimidinner</div>
+      <h1 class="hero-title">Tod auf dem<br>Jakobsweg</h1>
+      <p class="hero-desc">
+        Buen Camino? Nicht in dieser stürmischen Nacht in den Pyrenäen. Der Pilgerführer Martin Fischer bricht während des gemeinsamen Abendessens in der Herberge „San Tiago“ hustend zusammen und stirbt an einer Vergiftung. Die Verdächtigen: Ihr, die Pilger. Wer verbirgt ein mörderisches Motiv hinter seiner Jakobsmuschel?
+      </p>
+      <div class="hero-buttons">
+        <a href="#characters" class="btn btn-primary">Charaktere ansehen</a>
+        <a href="#rules" class="btn btn-secondary">Wie es funktioniert</a>
+      </div>
+      <div style="margin-top: 2rem;">
+        <span class="script-text">Buen camino!</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Characters Section -->
+  <section id="characters" class="section characters-section">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-subtitle">Die Pilgerrunde</p>
+        <h2>Wer ist verdächtig?</h2>
+      </div>
+      
+      <!-- Dynamic Character Grid -->
+      <div class="character-grid" id="character-grid">
+        <!-- Rendered dynamically by app.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- The Case (Indizienmappe) -->
+  <section id="case" class="section case-section">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-subtitle">Die Ermittlungen</p>
+        <h2>Die Indizienakte</h2>
+      </div>
+
+      <div style="max-width: 800px; margin: 0 auto 3rem; text-align: center;">
+        <p style="font-family: var(--font-serif); font-size: 1.15rem; color: var(--text-muted);">
+          Hier sind die bisher gesicherten Beweise vom Tatort. Klicke auf die Papiere und Zeichnungen an der Pinnwand, um sie genauer zu untersuchen.
+        </p>
+      </div>
+
+      <!-- Corkboard style Container -->
+      <div class="corkboard" role="region" aria-label="Indizien-Pinnwand">
+        
+        <!-- Note 1: The Victim -->
+        <div class="evidence-note" tabindex="0">
+          <div class="evidence-pin"></div>
+          <h3>Akte: Martin Fischer</h3>
+          <p><strong>Status:</strong> Opfer (Pilgerführer, tot zusammengebrochen am Tisch)</p>
+          <p><strong>Todeszeit:</strong> Gestern Abend gegen 20:00 Uhr während des Hauptgangs.</p>
+          <p><strong>Befund:</strong> Vergiftung. In der Weinflasche und im Glas des Opfers wurden Spuren des hochgiftigen Jakobskreuzkrauts nachgewiesen.</p>
+        </div>
+
+        <!-- Note 2: Crime Scene -->
+        <div class="evidence-note" tabindex="0">
+          <div class="evidence-pin"></div>
+          <h3>Der Tatort: Albergue „San Tiago“</h3>
+          <p>Eine einsame, uralte Pilgerherberge an einem steilen Berghang. Der einzige Fluchtweg ins Tal ist durch einen Erdrutsch blockiert. Der Mörder muss sich also noch unter den Gästen in der Herberge befinden!</p>
+        </div>
+
+        <!-- Sketch 1: Backpack (SVG Sketch) -->
+        <div class="evidence-note evidence-sketch" tabindex="0" aria-label="Beweisskizze Rucksack">
+          <div class="evidence-pin"></div>
+          <svg class="evidence-sketch-svg" viewBox="0 0 100 130" xmlns="http://www.w3.org/2000/svg">
+            <!-- Backpack outline -->
+            <path d="M25 35 C25 20, 75 20, 75 35 L80 110 C80 120, 20 120, 20 110 Z" stroke="#2b1a10" fill="none"/>
+            <path d="M20 50 L80 50" stroke="#2b1a10"/>
+            <path d="M20 80 L80 80" stroke="#2b1a10"/>
+            <!-- Top cover flap -->
+            <path d="M25 35 C25 15, 75 15, 75 35 L70 55 L30 55 Z" stroke="#2b1a10" fill="none"/>
+            <!-- Straps -->
+            <path d="M40 55 L40 115" stroke="#2b1a10" stroke-dasharray="3,3"/>
+            <path d="M60 55 L60 115" stroke="#2b1a10" stroke-dasharray="3,3"/>
+            <rect x="37" y="112" width="6" height="5" stroke="#2b1a10" fill="none"/>
+            <rect x="57" y="112" width="6" height="5" stroke="#2b1a10" fill="none"/>
+            <!-- Pocket -->
+            <rect x="30" y="60" width="40" height="35" rx="3" stroke="#2b1a10" fill="none"/>
+            <!-- Label -->
+            <text x="50" y="105" font-family="sans-serif" font-size="8" text-anchor="middle" fill="#2b1a10">Asservat A: Rucksack</text>
+          </svg>
+          <p style="margin-top: 0.5rem; text-align: center; font-style: italic;">Gefunden im Speisesaal. Inhalt: Müll und leere Blechdosen. Der echte Rucksack von Martin wurde offenbar vertauscht.</p>
+        </div>
+
+        <!-- Sketch 2: Hiking Boots (SVG Sketch) -->
+        <div class="evidence-note evidence-sketch" tabindex="0" aria-label="Beweisskizze Stiefel">
+          <div class="evidence-pin"></div>
+          <svg class="evidence-sketch-svg" viewBox="0 0 120 100" xmlns="http://www.w3.org/2000/svg">
+            <!-- Boot outline -->
+            <path d="M15 75 L30 20 L55 22 L65 50 L95 65 L105 75 L105 85 L15 85 Z" stroke="#2b1a10" fill="none"/>
+            <!-- Sole -->
+            <path d="M12 85 L108 85 L108 90 L12 90 Z" stroke="#2b1a10" fill="#2b1a10"/>
+            <path d="M15 90 L18 94 L25 90 L32 94 L39 90 L46 94 L53 90 L60 94 L67 90 L74 94 L81 90 L88 94 L95 90 L102 94 L105 90" stroke="#2b1a10"/>
+            <!-- Laces -->
+            <path d="M48 30 L55 45 M55 30 L48 45 M49 42 L56 57 M56 42 L49 57" stroke="#2b1a10"/>
+            <!-- Heel cushion -->
+            <path d="M15 45 C15 35, 25 30, 30 35" stroke="#2b1a10"/>
+            <!-- Blood Splatter on shoe -->
+            <path d="M75 68 C80 62, 85 65, 87 72 C89 78, 80 83, 76 80 Z" fill="#8c1d1d"/>
+            <circle cx="91" cy="74" r="1.5" fill="#8c1d1d"/>
+            <circle cx="83" cy="60" r="1" fill="#8c1d1d"/>
+            <text x="60" y="15" font-family="sans-serif" font-size="8" text-anchor="middle" fill="#2b1a10">Asservat B: Wanderstiefel</text>
+          </svg>
+          <p style="margin-top: 0.5rem; text-align: center; font-style: italic;">Blutspuren an den Schuhsohlen eines Verdächtigen. Analyse läuft.</p>
+        </div>
+
+        <!-- Note 3: Signpost (SVG Sketch) -->
+        <div class="evidence-note evidence-sketch" tabindex="0" aria-label="Beweisskizze Wegweiser">
+          <div class="evidence-pin"></div>
+          <svg class="evidence-sketch-svg" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
+            <!-- Wooden pole -->
+            <rect x="55" y="10" width="10" height="105" fill="none" stroke="#2b1a10"/>
+            <!-- Sign 1: Santiago -->
+            <path d="M20 30 L85 30 L95 40 L85 50 L20 50 Z" fill="none" stroke="#2b1a10"/>
+            <text x="50" y="43" font-family="var(--font-serif)" font-size="9" font-weight="bold" fill="#2b1a10">SANTIAGO</text>
+            <!-- Shell icon on sign -->
+            <path d="M78 33 Q82 38, 80 47" stroke="#2b1a10" fill="none"/>
+            <path d="M80 33 Q84 38, 82 47" stroke="#2b1a10" fill="none"/>
+            
+            <!-- Sign 2: Death -->
+            <path d="M100 65 L35 65 L25 75 L35 85 L100 85 Z" fill="none" stroke="#2b1a10"/>
+            <text x="65" y="78" font-family="var(--font-serif)" font-size="10" font-weight="bold" fill="#8c1d1d">TOD</text>
+            <!-- Small skull on death sign -->
+            <circle cx="38" cy="74" r="4" fill="none" stroke="#8c1d1d"/>
+            <rect x="36" y="77" width="4" height="2" fill="none" stroke="#8c1d1d"/>
+            
+            <!-- Blood Splatter on post -->
+            <path d="M55 45 C50 48, 48 53, 52 56 Z" fill="#8c1d1d"/>
+          </svg>
+          <p style="margin-top: 0.5rem; text-align: center; font-style: italic;">Der Wegweiser direkt vor der Herberge wurde manipuliert.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- How it works (Ablauf) -->
+  <section id="rules" class="section">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-subtitle">Der Spieleabend</p>
+        <h2>Spielablauf &amp; Regeln</h2>
+      </div>
+
+      <div class="play-steps">
+        <div class="step-card">
+          <div class="step-num">I</div>
+          <h3>Rollenverteilung</h3>
+          <p>Jeder Gast erhält einen Charakter (z.B. per Link auf diese Seite). Öffnet euer geheimes Rollenheft in eurem Charakter-Profil erst am Abend des Dinners.</p>
+        </div>
+        <div class="step-card">
+          <div class="step-num">II</div>
+          <h3>Die Runden</h3>
+          <p>Das Spiel verläuft über 3 Runden. In jeder Runde erhaltet ihr neue Hinweise, Geheimnisse und Aufgaben. Tauscht euch beim Essen aus und stellt Fragen.</p>
+        </div>
+        <div class="step-card">
+          <div class="step-num">III</div>
+          <h3>Die Anklage</h3>
+          <p>Nach dem Hauptgang zieht jeder ein Fazit: Wer ist der Mörder, wie war der Tathergang und was war das Motiv? Stimmt ab!</p>
+        </div>
+        <div class="step-card">
+          <div class="step-num">IV</div>
+          <h3>Die Auflösung</h3>
+          <p>Der Spielleiter öffnet das Siegel der Lösung und liest den wahren Tathergang vor. Hat der Mörder die Gruppe getäuscht oder wurde er entlarvt?</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Host Guide (Spielleiter) -->
+  <section id="host" class="section" style="background-color: var(--bg-parchment);">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-subtitle">Für den Gastgeber</p>
+        <h2>Spielleiter-Bereich</h2>
+      </div>
+
+      <div style="max-width: 800px; margin: 0 auto;">
+        
+        <!-- Accordion 1: Vorbereitung -->
+        <div class="accordion">
+          <button class="accordion-trigger" aria-expanded="false" aria-controls="panel-prep">
+            <span>1. Vorbereitung des Abends</span>
+            <svg class="accordion-icon" width="24" height="24" viewBox="0 0 24 24"><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"/></svg>
+          </button>
+          <div id="panel-prep" class="accordion-panel">
+            <div class="accordion-content">
+              <p>Als Gastgeber leitest du das Spiel. Bereite folgende Dinge vor:</p>
+              <ul style="margin: 1rem 0; padding-left: 1.5rem;">
+                <li>Teile den Spielern ihre Charaktere vorab mit, damit sie sich passend verkleiden können.</li>
+                <li>Bereite das Menü vor (siehe Kulinarisches-Bereich unten).</li>
+                <li>Drucke eventuell die Indizien aus oder halte diese Webseite auf einem Tablet bereit.</li>
+                <li>Sorge für gedimmtes Licht, Kerzen und stimmungsvolle Musik (nutze unseren Player unten rechts!).</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Accordion 2: Ablaufplan -->
+        <div class="accordion">
+          <button class="accordion-trigger" aria-expanded="false" aria-controls="panel-flow">
+            <span>2. Ablaufplan während des Essens</span>
+            <svg class="accordion-icon" width="24" height="24" viewBox="0 0 24 24"><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"/></svg>
+          </button>
+          <div id="panel-flow" class="accordion-panel">
+            <div class="accordion-content">
+              <p>Der Abend gliedert sich perfekt entlang des Menüs:</p>
+              <ul style="margin: 1rem 0; padding-left: 1.5rem; display: flex; flex-direction: column; gap: 0.8rem;">
+                <li><strong>Vor der Vorspeise:</strong> Begrüßung und Einfinden in die Rollen. Alle lesen den Tab „Öffentliches Profil“ ihres Charakters.</li>
+                <li><strong>Während der Vorspeise (Runde 1):</strong> Die Leiche wurde gefunden. Erste Anschuldigungen und das Klären der Alibis.</li>
+                <li><strong>Während des Hauptgangs (Runde 2):</strong> Enthüllt das erste Geheimnis im digitalen Rollenheft. Private Motive und alte Fehden kommen ans Licht.</li>
+                <li><strong>Vor dem Dessert (Runde 3):</strong> Die finale Diskussionsrunde. Alle Karten liegen auf dem Tisch. Zieht eure Schlüsse und klagt den Verdächtigen an.</li>
+                <li><strong>Nach dem Dessert:</strong> Verlesung der offiziellen Auflösung.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Accordion 3: Die Lösung -->
+        <div class="accordion">
+          <button class="accordion-trigger" aria-expanded="false" aria-controls="panel-solution">
+            <span>3. 🚨 Die Auflösung (Streng Geheim!)</span>
+            <svg class="accordion-icon" width="24" height="24" viewBox="0 0 24 24"><path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"/></svg>
+          </button>
+          <div id="panel-solution" class="accordion-panel">
+            <div class="accordion-content">
+              <div class="secret-lock" id="solution-lock">
+                <div class="secret-lock-title">Halt! Nur nach der Anklagerunde öffnen!</div>
+                <p class="secret-lock-desc">Wenn du hier klickst, wird das Protokoll der Tatnacht und die Identität des Mörders sofort sichtbar geschaltet.</p>
+                <button class="btn btn-primary" onclick="document.getElementById('solution-lock').style.display='none'; document.getElementById('solution-content').style.display='block';">Lösung enthüllen</button>
+              </div>
+              <div class="secret-content" id="solution-content" style="display:none;">
+                <h3 style="color: var(--primary-blood); margin-bottom: 1rem;">Der Tathergang &amp; Die Mörderin</h3>
+                <p><strong>Die Mörderin ist Monika!</strong></p>
+                <p style="margin-top: 0.8rem;"><strong>Die Rekonstruktion der Tat:</strong><br>
+                  Monika hatte vor 18 Jahren eine heimliche Affäre mit dem Pilgerführer Martin Fischer, aus der ihre Tochter Lena hervorging. Monika verschwieg Albert und der Gemeinde die Wahrheit, um den Ruf ihrer Familie zu schützen. Als Martin auf dem Jakobsweg auftauchte und begann, Monika mit diesem Geheimnis zu erpressen und sich gleichzeitig Lena in bedrängender Weise anzunähern, fasste Monika den Entschluss, ihn zu töten.
+                </p>
+                <p style="margin-top: 0.8rem;">
+                  Monika weihte ihren Mann Albert ein, der sie bedingungslos schützen wollte. Albert sammelte im Garten Kräuter: Er wollte Amina ein Bündel harmloser Teekräuter geben und Monika das giftige Jakobskreuzkraut, um Martin zu vergiften. Doch vor Nervosität vertauschte Albert die blauen Päckchen. Die giftigen Kräuter landeten bei Amina, während Monika nur die harmlosen Kräuter erhielt.
+                </p>
+                <p style="margin-top: 0.8rem;">
+                  Amina verlor ihr Kräuterbündel auf dem Flur. Paul hob es auf, geriet in Panik wegen seiner eigenen Geheimnisse und schob es unauffällig unter die Tischdecke in der Küche. Dort wurde es von Rico gefunden und auf die Anrichte gelegt. Monika fand das Päckchen in der Küche, hielt es für das giftige Jakobskreuzkraut und schüttete es heimlich in die Weinflasche, aus der Martin später trank.
+                </p>
+                <button class="btn btn-secondary" onclick="document.getElementById('solution-lock').style.display='block'; document.getElementById('solution-content').style.display='none';" style="margin-top: 1.5rem;">Lösung wieder sperren</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Culinary Section (Menu) -->
+  <section id="menu" class="section">
+    <div class="container">
+      <div class="section-header">
+        <p class="section-subtitle">Pilger-Kulinarik</p>
+        <h2>Das Krimi-Dinner Menü</h2>
+      </div>
+
+      <div style="max-width: 800px; margin: 0 auto 3rem; text-align: center;">
+        <p style="font-family: var(--font-serif); font-size: 1.15rem; color: var(--text-muted);">
+          Verwöhne deine Ermittlerrunde mit galicischen Spezialitäten direkt vom Ende des Jakobswegs.
+        </p>
+      </div>
+
+      <div class="culinary-grid">
+        
+        <!-- Starter -->
+        <div class="recipe-card">
+          <div class="recipe-course">Vorspeise</div>
+          <h3 class="recipe-title">Empanada Gallega</h3>
+          <div class="recipe-body">
+            <div class="recipe-ingredients">
+              <h4>Zutaten:</h4>
+              <ul>
+                <li>2 Rollen fertiger Hefeteig</li>
+                <li>2 Dosen Thunfisch (in Öl)</li>
+                <li>1 rote &amp; 1 gelbe Paprika</li>
+                <li>2 Zwiebeln &amp; Knoblauch</li>
+                <li>Tomatenmark &amp; Gewürze</li>
+              </ul>
+            </div>
+            <div class="recipe-prep">
+              <h4>Zubereitung:</h4>
+              <p>Zwiebeln, Knoblauch und Paprika in Olivenöl dünsten. Thunfisch und Tomatenmark unterrühren. Den Teig ausrollen, Füllung darauf verteilen, mit der zweiten Teigplatte bedecken, Ränder festdrücken und goldgelb backen.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Main -->
+        <div class="recipe-card">
+          <div class="recipe-course">Hauptgang</div>
+          <h3 class="recipe-title">Pulpo a la Gallega</h3>
+          <div class="recipe-body">
+            <div class="recipe-ingredients">
+              <h4>Zutaten:</h4>
+              <ul>
+                <li>1 Oktopus (vorgegart, ca. 800g)</li>
+                <li>500g festkochende Kartoffeln</li>
+                <li>Gutes Olivenöl</li>
+                <li>Grobes Meersalz</li>
+                <li>Edelsüßes &amp; scharfes Paprikapulver</li>
+              </ul>
+            </div>
+            <div class="recipe-prep">
+              <h4>Zubereitung:</h4>
+              <p>Kartoffeln kochen und in Scheiben schneiden. Den Oktopus erwärmen und in mundgerechte Stücke schneiden. Kartoffelscheiben auf einem Holzteller anrichten, Oktopus darauflegen, reichlich Olivenöl, Meersalz und Paprikapulver darübergeben.</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Dessert -->
+        <div class="recipe-card">
+          <div class="recipe-course">Dessert</div>
+          <h3 class="recipe-title">Tarta de Santiago</h3>
+          <div class="recipe-body">
+            <div class="recipe-ingredients">
+              <h4>Zutaten:</h4>
+              <ul>
+                <li>250g gemahlene Mandeln</li>
+                <li>250g Zucker</li>
+                <li>5 Eier (Größe M)</li>
+                <li>Abrieb einer Bio-Zitrone</li>
+                <li>Zimt &amp; Puderzucker</li>
+              </ul>
+            </div>
+            <div class="recipe-prep">
+              <h4>Zubereitung:</h4>
+              <p>Eier mit Zucker schaumig schlagen. Zitronenschale, Zimt und gemahlene Mandeln unterheben. In einer gefetteten Springform bei 180°C ca. 35 Min. backen. Nach dem Abkühlen mit Puderzucker bestäuben (traditionell wird dabei die Form des Jakobskreuzes ausgespart).</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Dialog (Character Modal) -->
+  <dialog id="character-dialog">
+    <div class="dialog-header">
+      <div>
+        <div class="character-role-title" id="modal-char-role">Das Ehepaar Albert</div>
+        <h2 id="modal-char-name">Albert Albert</h2>
+      </div>
+      <button class="dialog-close" id="dialog-close-btn" aria-label="Schließen">
+        <svg viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+      </button>
+    </div>
+    <div class="dialog-body">
+      <div class="modal-tabs" role="tablist">
+        <button class="tab-btn active" id="tab-btn-public" role="tab" aria-selected="true" aria-controls="tab-public">Öffentliches Profil</button>
+        <button class="tab-btn" id="tab-btn-secret" role="tab" aria-selected="false" aria-controls="tab-secret">🔑 Digitales Rollenheft</button>
+      </div>
+
+      <div class="tab-content active" id="tab-public" role="tabpanel">
+        <!-- Injected via JS -->
+      </div>
+      <div class="tab-content" id="tab-secret" role="tabpanel">
+        <!-- Injected via JS -->
+      </div>
+    </div>
+  </dialog>
+
+  <!-- Ambiance Audio Toggle Widget -->
+  <div class="audio-widget" role="complementary" aria-label="Hintergrundmusik">
+    <button class="audio-btn" id="audio-toggle-btn" aria-label="Hintergrundmusik abspielen oder pausieren">
+      <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
+    </button>
+    <div class="audio-status" id="audio-status-text">Musik Aus</div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container footer-content">
+      <div class="footer-col">
+        <div class="footer-logo">
+          <!-- Small Scallop Shell -->
+          <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+            <path d="M50 5C53 15 57 25 62 33C67 41 73 48 80 54C87 60 93 64 95 67C92 70 85 73 76 75C67 77 58 78 50 78C42 78 33 77 24 75C15 73 8 70 5 67C7 64 13 60 20 54C27 48 33 41 38 33C43 25 47 15 50 5Z" stroke="#c29753" stroke-width="2" stroke-linejoin="round"/>
+            <path d="M50 5V78" stroke="#c29753" stroke-width="2"/>
+            <path d="M50 5C47 25 39 45 24 60" stroke="#c29753" stroke-width="1.5"/>
+            <path d="M50 5C53 25 61 45 76 60" stroke="#c29753" stroke-width="1.5"/>
+            <path d="M5 67C10 77 20 86 35 91C40 93 45 94 50 94C55 94 60 93 65 91C80 86 90 77 95 67" stroke="#c29753" stroke-width="2" fill="none"/>
+          </svg>
+          <div class="footer-logo-text">Buen Camino, <span>Tod!</span></div>
+        </div>
+        <p class="footer-desc">Ein stimmungsvolles, interaktives Krimidinner für einen unvergesslichen Abend mit Freunden.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Schnellzugriff</h4>
+        <ul>
+          <li><a href="#characters">Verdächtige Pilger</a></li>
+          <li><a href="#case">Die Ermittlungsakte</a></li>
+          <li><a href="#rules">Spielregeln</a></li>
+          <li><a href="#host">Spielleiter-Lösung</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Eigene Anpassungen</h4>
+        <p class="footer-desc" style="font-size: 0.85rem; line-height: 1.4;">
+          Um Charaktere zu ändern, passe einfach die Variable <code>charactersData</code> in <code>app.js</code> an. Bilder können in <code>assets/characters/</code> hinterlegt werden.
+        </p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        &copy; 2026 Buen Camino, Tod! - Erstellt für deinen Krimidinner-Spieleabend.
+      </div>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
