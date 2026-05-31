@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Buen Camino, Tod! - Das Pilger-Krimidinner für Zuhause</title>
+  <title>Buen Camino! - Das Pilger-Krimidinner für Zuhause</title>
   <meta name="description" content="Ein packendes Krimidinner auf dem Jakobsweg. Schlüpft in die Rollen verdächtiger Pilger, lüftet Geheimnisse an der Albergue und entlarvt den Mörder.">
   <link rel="stylesheet" href="style.css">
 </head>
@@ -12,7 +12,7 @@
   <!-- Navigation -->
   <header>
     <div class="container nav-container">
-      <a href="#" class="logo" id="nav-logo" aria-label="Buen Camino, Tod! Startseite">
+      <a href="#" class="logo" id="nav-logo" aria-label="Buen Camino! Startseite">
         <!-- Jakobsmuschel SVG Logo -->
         <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
           <path d="M50 5C53 15 57 25 62 33C67 41 73 48 80 54C87 60 93 64 95 67C92 70 85 73 76 75C67 77 58 78 50 78C42 78 33 77 24 75C15 73 8 70 5 67C7 64 13 60 20 54C27 48 33 41 38 33C43 25 47 15 50 5Z" stroke="#c29753" stroke-width="2" stroke-linejoin="round"/>
@@ -23,7 +23,7 @@
           <path d="M50 5C56 25 72 42 92 50" stroke="#c29753" stroke-width="1.5"/>
           <path d="M5 67C10 77 20 86 35 91C40 93 45 94 50 94C55 94 60 93 65 91C80 86 90 77 95 67" stroke="#c29753" stroke-width="2" fill="none"/>
         </svg>
-        <div class="logo-text">Buen Camino, <span>Tod!</span></div>
+        <div class="logo-text">Buen Camino!</div>
       </a>
       <nav aria-label="Hauptnavigation">
         <ul>
@@ -31,7 +31,6 @@
           <li><a href="#case">Der Fall</a></li>
           <li><a href="#rules">Ablauf</a></li>
           <li><a href="#host">Spielleiter</a></li>
-          <li><a href="#menu">Kulinarisches</a></li>
         </ul>
       </nav>
     </div>
@@ -90,7 +89,7 @@
         <h2>Die Indizienakte</h2>
       </div>
 
-      <div style="max-width: 800px; margin: 0 auto 3rem; text-align: center;">
+      <div style="max-width: 800px; margin: 0 auto 3rem; text-align: center; display: none;">
         <p style="font-family: var(--font-serif); font-size: 1.15rem; color: var(--text-muted);">
           Hier sind die bisher gesicherten Beweise vom Tatort. Klicke auf die Papiere und Zeichnungen an der Pinnwand, um sie genauer zu untersuchen.
         </p>
@@ -115,8 +114,18 @@
           <p>Eine einsame, uralte Pilgerherberge an einem steilen Berghang. Der einzige Fluchtweg ins Tal ist durch einen Erdrutsch blockiert. Der Mörder muss sich also noch unter den Gästen in der Herberge befinden!</p>
         </div>
 
+        <div class="evidence-note" tabindex="0">
+          <div class="evidence-pin"></div>
+          <h3>Hinweise</h3>
+          <ol>
+            <li><p>Ein Rucksack, gefunden im Speisesaal. Inhalt: Müll und leere Blechdosen. Der echte Rucksack von Martin wurde offenbar vertauscht.</p></li>
+            <li><p>Wanderstiefel mit Blutspuren eines Verdächtigen an den Schuhsohlen. Analyse läuft.</p></li>
+            <li><p>Der Wegweiser direkt vor der Herberge wurde manipuliert.</p></li>
+          </ol>
+        </div>
+
         <!-- Sketch 1: Backpack (SVG Sketch) -->
-        <div class="evidence-note evidence-sketch" tabindex="0" aria-label="Beweisskizze Rucksack">
+        <div class="evidence-note evidence-sketch" tabindex="0" aria-label="Beweisskizze Rucksack" style="display: none;">
           <div class="evidence-pin"></div>
           <svg class="evidence-sketch-svg" viewBox="0 0 100 130" xmlns="http://www.w3.org/2000/svg">
             <!-- Backpack outline -->
@@ -135,11 +144,11 @@
             <!-- Label -->
             <text x="50" y="105" font-family="sans-serif" font-size="8" text-anchor="middle" fill="#2b1a10">Asservat A: Rucksack</text>
           </svg>
-          <p style="margin-top: 0.5rem; text-align: center; font-style: italic;">Gefunden im Speisesaal. Inhalt: Müll und leere Blechdosen. Der echte Rucksack von Martin wurde offenbar vertauscht.</p>
+          <p style="margin-top: 0.5rem; text-align: center; font-style: italic;">Gefunden im Speisesaal. </p>
         </div>
 
         <!-- Sketch 2: Hiking Boots (SVG Sketch) -->
-        <div class="evidence-note evidence-sketch" tabindex="0" aria-label="Beweisskizze Stiefel">
+        <div class="evidence-note evidence-sketch" tabindex="0" aria-label="Beweisskizze Stiefel" style="display: none;">
           <div class="evidence-pin"></div>
           <svg class="evidence-sketch-svg" viewBox="0 0 120 100" xmlns="http://www.w3.org/2000/svg">
             <!-- Boot outline -->
@@ -157,11 +166,11 @@
             <circle cx="83" cy="60" r="1" fill="#8c1d1d"/>
             <text x="60" y="15" font-family="sans-serif" font-size="8" text-anchor="middle" fill="#2b1a10">Asservat B: Wanderstiefel</text>
           </svg>
-          <p style="margin-top: 0.5rem; text-align: center; font-style: italic;">Blutspuren an den Schuhsohlen eines Verdächtigen. Analyse läuft.</p>
+          <p style="margin-top: 0.5rem; text-align: center; font-style: italic;"></p>
         </div>
 
         <!-- Note 3: Signpost (SVG Sketch) -->
-        <div class="evidence-note evidence-sketch" tabindex="0" aria-label="Beweisskizze Wegweiser">
+        <div class="evidence-note evidence-sketch" tabindex="0" aria-label="Beweisskizze Wegweiser" style="display: none;">
           <div class="evidence-pin"></div>
           <svg class="evidence-sketch-svg" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
             <!-- Wooden pole -->
@@ -183,7 +192,7 @@
             <!-- Blood Splatter on post -->
             <path d="M55 45 C50 48, 48 53, 52 56 Z" fill="#8c1d1d"/>
           </svg>
-          <p style="margin-top: 0.5rem; text-align: center; font-style: italic;">Der Wegweiser direkt vor der Herberge wurde manipuliert.</p>
+          <p style="margin-top: 0.5rem; text-align: center; font-style: italic;"></p>
         </div>
 
       </div>
@@ -246,7 +255,7 @@
                 <li>Teile den Spielern ihre Charaktere vorab mit, damit sie sich passend verkleiden können.</li>
                 <li>Bereite das Menü vor (siehe Kulinarisches-Bereich unten).</li>
                 <li>Drucke eventuell die Indizien aus oder halte diese Webseite auf einem Tablet bereit.</li>
-                <li>Sorge für gedimmtes Licht, Kerzen und stimmungsvolle Musik (nutze unseren Player unten rechts!).</li>
+                <li>Sorge für gedimmtes Licht, Kerzen und stimmungsvolle Musik</li>
               </ul>
             </div>
           </div>
@@ -308,7 +317,7 @@
   </section>
 
   <!-- Culinary Section (Menu) -->
-  <section id="menu" class="section">
+  <section id="menu" class="section" style="display: none;">
     <div class="container">
       <div class="section-header">
         <p class="section-subtitle">Pilger-Kulinarik</p>
@@ -405,22 +414,31 @@
       </button>
     </div>
     <div class="dialog-body">
-      <div class="modal-tabs" role="tablist">
-        <button class="tab-btn active" id="tab-btn-public" role="tab" aria-selected="true" aria-controls="tab-public">Öffentliches Profil</button>
-        <button class="tab-btn" id="tab-btn-secret" role="tab" aria-selected="false" aria-controls="tab-secret">🔑 Digitales Rollenheft</button>
-      </div>
-
-      <div class="tab-content active" id="tab-public" role="tabpanel">
+      <div id="modal-profile-content">
         <!-- Injected via JS -->
       </div>
-      <div class="tab-content" id="tab-secret" role="tabpanel">
-        <!-- Injected via JS -->
+      
+      <hr style="border: 0; border-top: 1px solid var(--border-sep); margin: 2rem 0 1.5rem 0;">
+      
+      <div class="download-section" style="text-align: center; background: rgba(194, 151, 83, 0.05); padding: 1.5rem; border: 1px dashed var(--accent-gold-dark); border-radius: 8px;">
+        <h3 style="font-family: var(--font-serif); color: var(--primary-blood); margin-bottom: 0.5rem; font-size: 1.2rem;">Geheimes Rollenheft (PDF)</h3>
+        <p style="font-size: 0.9rem; color: var(--text-muted); margin-bottom: 1.2rem; line-height: 1.5;">
+          🚨 <strong>Achtung, Spoilerschutz!</strong> Bitte lade dieses Heft nur herunter, wenn du diese Rolle heute Abend spielst. Es enthält alle geheimen Informationen, deine Ziele und den genauen Ablauf.
+        </p>
+        <a id="modal-download-link" href="#" download class="btn btn-primary" style="display: inline-flex; align-items: center; gap: 0.5rem; text-decoration: none; padding: 0.8rem 2rem; font-weight: 700;">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="vertical-align: middle; display: inline-block;">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+            <polyline points="7 10 12 15 17 10"></polyline>
+            <line x1="12" y1="15" x2="12" y2="3"></line>
+          </svg>
+          Rollenheft herunterladen
+        </a>
       </div>
     </div>
   </dialog>
 
   <!-- Ambiance Audio Toggle Widget -->
-  <div class="audio-widget" role="complementary" aria-label="Hintergrundmusik">
+  <div class="audio-widget" role="complementary" aria-label="Hintergrundmusik" style="display: none;">
     <button class="audio-btn" id="audio-toggle-btn" aria-label="Hintergrundmusik abspielen oder pausieren">
       <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
     </button>
@@ -440,7 +458,7 @@
             <path d="M50 5C53 25 61 45 76 60" stroke="#c29753" stroke-width="1.5"/>
             <path d="M5 67C10 77 20 86 35 91C40 93 45 94 50 94C55 94 60 93 65 91C80 86 90 77 95 67" stroke="#c29753" stroke-width="2" fill="none"/>
           </svg>
-          <div class="footer-logo-text">Buen Camino, <span>Tod!</span></div>
+          <div class="footer-logo-text">Buen Camino!</span></div>
         </div>
         <p class="footer-desc">Ein stimmungsvolles, interaktives Krimidinner für einen unvergesslichen Abend mit Freunden.</p>
       </div>
@@ -453,16 +471,10 @@
           <li><a href="#host">Spielleiter-Lösung</a></li>
         </ul>
       </div>
-      <div class="footer-col">
-        <h4>Eigene Anpassungen</h4>
-        <p class="footer-desc" style="font-size: 0.85rem; line-height: 1.4;">
-          Um Charaktere zu ändern, passe einfach die Variable <code>charactersData</code> in <code>app.js</code> an. Bilder können in <code>assets/characters/</code> hinterlegt werden.
-        </p>
-      </div>
     </div>
     <div class="footer-bottom">
       <div class="container">
-        &copy; 2026 Buen Camino, Tod! - Erstellt für deinen Krimidinner-Spieleabend.
+        &copy; 2026 Buen Camino! - Erstellt für deinen Krimidinner-Spieleabend.
       </div>
     </div>
   </footer>

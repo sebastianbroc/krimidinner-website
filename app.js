@@ -8,7 +8,7 @@ const charactersData = [
     "id": "albert",
     "name": "Albert",
     "age": "64",
-    "role": "Der eigenwillige Hobby-Gärtner",
+    "role": "Der eigenwillige Hobby-Gärtner würde für das Wohl seiner Familie sprichwörtlich über (Pflanzen-)Leichen gehen.Er ist unterwegs mit seiner Frau Monika und seiner Tochter Lena.",
     "char_desc": "Du bist ein bodenständiger Ehemann und leidenschaftlicher Hobby Gärtner. Die Familie und die Gemeinde stehen für dich an erster Stelle. Nach außen wirkst du wie ein Opa, der ständig ungefragt Tipps zu Dünger, Kräutern und dem pH-Wert vom Boden gibt. Aber unter der Oberfläche bist du auf dem Camino, um deine Ehe zu retten. Dennoch würdest du deine Familie um jeden Preis beschützen.",
     "secrets": "Du weißt, dass Monika (deine Frau), Martin getötet hat. Sie hat dir erzählt, dass er sie angeblich angegriffen hat und sie ihn nun in Notwehr ausschalten muss. Für dich sind die Details unwichtig. Doch eines ist klar: Du deckst deine Frau bedingungslos. Sie erzählt dir, dass Martin Lena schon seit längerer Zeit belästigt und ihr unheimlich nahekam. Das hat ihr Sorgen gemacht. Du bist überzeugt, dass sie nur gehandelt hat, um sich und Lena zu schützen.",
     "relation_martin": "Bevor deine Frau ihn umgebracht hatte, konntest du Martin ganz gut leiden. Er hat sich für deine Arbeit im Garten interessiert. Doch nun verabscheust du ihn. Seitdem er sich widerlich an Lena herangemacht hatte, ist er in deinen Augen Unkraut, was gejätet werden muss.",
@@ -26,7 +26,7 @@ const charactersData = [
     "id": "amina",
     "name": "Amina",
     "age": "28",
-    "role": "Sie sucht auf dem Pilgerweg auf eine",
+    "role": "Sie sucht auf dem Pilgerweg auf eine spirituelle Weise nach ihrer inneren Mitte. Doch hinter ihrer friedlichen Fassade verbirgt sich tiefer Schmerz.",
     "char_desc": "Du bist eine gläubige und weltoffene Frau, die auf dem Jakobsweg nach ihrer inneren Mitte sucht. Du bist intelligent, aufmerksam und meistens eher still, wirkst auf andere aber manchmal „etwas verrückt“, da du eine sehr ausgeprägte spirituelle Ader hast. Dein Ziel ist es, mehr über dich selbst, Gott und die christliche Pilgerkultur zu erfahren.",
     "secrets": "Hinter deiner ruhigen Fassade verbirgt sich eine tiefe Verletzung. Das Opfer Martin, hat sich grausam über deinen Glauben lustig gemacht. Er hat dich auf der Reise mehrmals beleidigt und belästigt. Zudem hat er dein privates Tagebuch gestohlen, ein Buch, welches du auf deinem Weg begonnen hast zu schreiben. Darin stehen deine intimsten Gespräche mit Gott sowie deine spirituellen Zweifel. Martin hat in der Herberge Passagen daraus laut vorgelesen, deine Worte als „psychische Krankheit“ verspottet und sie so verdreht, dass sie wie Gotteslästerung wirkten. Damit ist nicht genug: Martin veröffentlichte heimlich gefilmte Videos von dir, sowie Tagebuchpassagen in Pilgerforen. Seitdem wirst du mit hasserfüllten Nachrichten und Drohungen bombardiert. Man bezeichnet dich als Eindringling und will dich vom Pilgerweg vertreiben.",
     "relation_martin": "Deine Beziehung zu Martin ist von tiefem Schmerz und einem massiven Vertrauensbruch geprägt. Ursprünglich war er für dich der Pilgerführer, der dir den Weg weisen sollte, doch er entpuppte sich als dein schlimmster Mobber. Martin hat dein Leben, deinen Glauben und deine privaten Gespräche in den Schmutz gezogen. Er war nicht nur respektlos, sondern auch grausam.",
@@ -44,7 +44,7 @@ const charactersData = [
     "id": "lena",
     "name": "Lena",
     "age": "18",
-    "role": "Sie ist als junge fleißige Studentin und",
+    "role": "Sie ist als junge fleißige Studentin und Journalistin mit ihren Eltern auf dem Camino und nutzt diesen als Ausgleich zu ihrem stressigen Alltag.",
     "char_desc": "Du bist eine junge fleißige Studentin, die den Jakobsweg vielleicht auch als Ausgleich zu ihrem stressigen Unialltag nutzt. Es ist für dich eine neue Erfahrung und du möchtest diese inspirierende Kraft des Caminos in deinen Blog stecken. Du bist nämlich Journalistin. Gleichzeitig bist du auch mit deinen Eltern Monika und Albert auf dem Weg. Du verstehst dich besser mit deinen Eltern, seitdem du von zu Hause ausgezogen bist. Es gab nur Streit und Stress zuhause. Deine Eltern haben dich auf die Idee gebracht mit ihnen zu pilgern, um das Familienverhältnis zu stärken. In der Runde wirkst du sympathisch und eher unschuldig, was dazu führt, dass man dir gerne vertraut.",
     "secrets": "Du hast als eine der wenigen eine sehr gute Beziehung zu Martin gehabt. In deiner Gegenwart war er immer zuvorkommend und hilfsbereit und hat dir sogar bei deinen Studiensachen unter die Arme gegriffen. Als Gegenzug hast du ihm bei seiner App geholfen und ein paar Blogeinträge sorgfältig ausgearbeitet. Doch es gibt eine Kehrseite: Du fühlst dich von seiner Nähe etwas bedrängt.",
     "relation_martin": "Für dich war Martin eine Art Mentor-Figur. Er war immer da, wenn du Hilfe gebraucht hast, besonders bei komplexen Themen deines Studiums. Auch wenn dir sein „Auflauern“ manchmal ein mulmiges Gefühl gegeben hat, überwog deine Dankbarkeit für seine Unterstützung.",
@@ -62,7 +62,7 @@ const charactersData = [
     "id": "monika",
     "name": "Monika",
     "age": "58",
-    "role": "Die trafitionsbewusste Ehefrau",
+    "role": "Die traditionsbewusste Ehefrau beschreitet gemeinsam mit ihrem Mann Albert und ihrer Tochter Lena den Jakobsweg. Sie achtet penibel auf den guten Ruf ihrer Familie in der Gemeinde.",
     "char_desc": "Du bist eine Frau, die größten Wert auf Anstand, Tradition und ihren Glauben legt. Nach außen hin führst du eine Vorzeigeehe zu deinem Mann Albert. Du bist streng religiös und dein Ruf in der Gemeinde ist dir heilig. Ihr seid auf dem Jakobsweg, um eure Ehe zu retten. Zu deiner Tochter Lena ist die Beziehung schon seit längerer Zeit auf der Kippe. Seitdem sie ausgezogen ist, hast du keinen Lebensinhalt mehr.",
     "secrets": "Albert und du haben seit einiger Zeit Eheprobleme. Es kriselt schon seit Jahren aufgrund von Fremdgehgerüchten oder Meinungsverschiedenheiten. Da ihr streng religiös seid, ist Ehebruch in euerer Gemeinde eine Sünde. Deshalb rauft ihr euch zusammen und versucht durch eine spirituelle Reise wieder zueinander zu finden. Diese Reise verlief auch bisher sehr erfolgreich. Dein Leben geriet jedoch aus den Fugen als Martin auftauchte. Er hat dich sofort wiedererkannt, denn Martin ist der leibliche Vater deiner Tochter (der Studentin Lena). Du hattest eine Affäre mit ihm, während der Ehe mit Albert.",
     "relation_martin": "Für dich gehört Martin längst der Vergangenheit an und du hattest ihn bereits verdrängt. Er verkörperte deine größt e Sünde. Jedes Mal, wenn er dich ansah, hast du die Drohung gehört, dein Leben in Trümmer zu legen. Du hast ihn nicht nur gehasst, du hast ihn als bösartiges Hindernis auf deinem Weg zur Erlösung gesehen.",
@@ -80,7 +80,7 @@ const charactersData = [
     "id": "pastor",
     "name": "Pastor (Johannes)",
     "age": "61",
-    "role": "Er wirkt wie ein gütiger Seelsorger,",
+    "role": "Er wirkt wie ein gütiger Seelsorger, dem das Wohlbefinden der Gemeinschaft am Herzen liegt. Für alle Pilger hat er ein offenes Ohr.",
     "char_desc": "Als Pastor auf dem Jakobsweg hast du für jeden ein offenes Ohr und ein tröstendes Wort. Du wirkst wie ein naiver Seelsorger, der in jedem Menschen nur das Gute sieht. Doch hinter dem gütigen Lächeln verbirgt sich ein knallharter Ermittler der Kirche. Du bist kein einfacher Gemeindepfarrer, sondern arbeitest direkt für das Bistum.",
     "secrets": "Du bist „Undercover“ auf dem Pilgerweg. Das Bistum hat dich geschickt, um Beweise gegen das Opfer Martin zu sammeln. Es gibt schwerwiegende Gerüchte, dass er Spendengelder veruntreut und Pilger psychisch unter Druck gesetzt hat. Dein Auftrag ist es, ihn zu entlarven bevor es ein öffentlicher Skandal für die Kirche erschüttert. Zudem begleitest du Rico, einen ehemaligen Sträfling, im Rahmen des Resozialierungsprogramms „Pilgern statt Knast“. Du hast Rico ins Herz geschlossen, doch Martin hat herausgefunden, dass Rico einen Rückfall hatte und will ihn hinter Gitter bringen. Für dich ist Martin der Teufel in Person, der jeder auf dieser Reise vernichten möchte. Du willst Rico um jeden Preis schützen. Niemand weiß, dass Rico und du in Verbindung stehen. Für alle seid ihr auf der Reise seid ihr nur gute Weggefährten geworden, die sich vielleicht zu sehr vertrauen.",
     "relation_martin": "Deine Beziehung zu Martin ist von tiefer Verachtung geprägt. Während du ihm gegenüber einem freundlichen Mitbruder spielst, sammelst du im Hintergrund akribisch Beweise für seine Verbrechen. Sein Umgang mit Rico hat dein Fass zum Überlaufen gebracht.",
@@ -98,7 +98,7 @@ const charactersData = [
     "id": "paul",
     "name": "Paul",
     "age": "25",
-    "role": "Ein absoluter Sportfreak auf",
+    "role": "Ein absoluter Sportfreak auf Rekordjagd. Er wirkt extrem fokussiert und würde für seinen Erfolg sogar bis an die Schmerzensgrenze gehen.",
     "char_desc": "Du bist ein absoluter Sportfreak und lebst für die Herausforderung. Dein Ehrgeiz kennt normalerweise keine Grenzen. Nach außen bist du der disziplinierte Profi, der den Erfolg liebt. Doch hinter der Fassade aus Schweiß, steht für dich alles auf dem Spiel. Erfolg ist für dich nicht nur Ruhm, sondern auch eine finanzielle Absicherung.",
     "secrets": "Du hast einen lukrativen Vertrag mit einem Radsponsor an Land gezogen. Deine Aufgabe: Den Prototyp eines neuen Carbon Rads auf der Strecke von St. Jean Pied de Port, bis Santiago zu testen und das in der Rekordzeit von unter 5 Tagen. Jeder Kilometer wird per GPS getrackt. Die Belohnung sind 80.000€, mit denen du bereits eine Eigentumswohnung angezahlt hast. Doch an Tag 3 passierte der Albtraum: Dein Knie gab auf. Aus purer Verzweiflung hast du begonnen zu betrügen. Du hast Teilstrecken mit dem Bus abgekürzt und das Fahrrad samt GPS auf den Anhänger eines Fahrzeugs gespannt, um 150km weit zu fahren. Du dachtest niemand würde es merken, doch Martin hat dich genau in dem Moment erwischt, als du das Rad am Straßenrand wieder aus dem Anhänger gehoben hast. Es gibt ein Video von diesem Moment. Martin hat dich damit eiskalt erpresst. Rollenbeschreibung Paul",
     "relation_martin": "Martin ist ein bekannter Pilgerführer, wirkte anfangs nett und zuvorkommend, genau der Typ Mensch, dem man bei einem Glas Wein beim Abendbrot sein Herz öffnet. Im Vertrauen und deiner Euphorie hast du ihm von deinen Plänen, dem Sponsor und deiner Belohnung erzählt. Martin ist berüchtigt dafür, dass er die Geheimnisse, die ihm erzählt werden, später wie eine Waffe gegen einen verwendet wird. Als er dich tatsächlich beim Betrügen am Straßenrand filmte, zeigte er sein wahres, hinterhältiges Gesicht. Aus dem „netten Pilgerführer wurde ein Peiniger.",
@@ -116,7 +116,7 @@ const charactersData = [
     "id": "rico",
     "name": "Rico",
     "age": "39",
-    "role": "Ein schweigsamer Mann, der versucht",
+    "role": "Ein schweigsamer Mann, der versucht ein neues Kapitel in seinem Leben aufzuschlagen und mit sich selbst ins Reine zu kommen, um für seine Sünden zu büßen.",
     "char_desc": "Du bist ein Mann mit einer harten Vergangenheit. Schwere Körperverletzung, Drogenhandel und Diebstahl prägen deine Gefängnisakte. Dies sind Folgen einer sehr schlimmen Kindheit. Du bist leicht reizbar, manchmal aggressiv und etwas sozial abgeschottet von den anderen.",
     "secrets": "Deine Vergangenheit soll vor den anderen geheim bleiben. Die anderen denken, dass du aus religiösen Gründen pilgern gehst, um deine Sünden loszuwerden. Du willst dich ändern, nimmst an einem Resozialisierungsprogramm „Pilgern statt Knast“ teil und suchst auf dem Jakobsweg nach Vergebung. Der Pastor ist dein ständiger Wegbegleiter und hilft dir auf deiner Reise. Er ist schon wie ein Vater für dich geworden. Aber auch diese Beziehung muss geheim bleiben. Du bist einsichtig und willst dein Leben ordnen, doch du fällst in alte Muster zurück. Vor zwei Tagen hast du Geld aus der Kasse gestohlen. Dabei war es weder geplant, noch hast du das Geld überhaupt gebraucht. Anschließend hast du das Bündel Geld in deinem Rucksack versteckt. Sollte dieser Rückfall bekannt werden, scheitert dein Programm sofort und du landest ohne Umwege in der Sicherheitsverwahrung. Martin hat dich dabei gesehen. Er hat sich ein wenig über dich informiert und herausgefunden, dass du ein Sträfling bist. Nun will er dich eiskalt einbuchten. Seitdem behandelte dich Martin wie einen Diener. Er ließ dich sämtliche Dinge für ihn erledigen, damit er dein Geheimnis nicht preisgibt.",
     "relation_martin": "Martin lässt dich nur verzweifeln. Während der Pastor an dich glaubt, sieht Martin in dir den ewigen Verbrecher. Er kennt deinen Fehler und nutzt dieses Wissen als Druckmittel. Für dich ist er eine Bedrohung deiner Freiheit. Du hast ihn zutiefst gefürchtet und gleichzeitig gehasst, weil er dir die Chance auf ein neues Leben nehmen wollte.",
@@ -133,8 +133,8 @@ const charactersData = [
   {
     "id": "walentina",
     "name": "Walentina",
-    "age": "??",
-    "role": "Pilger auf dem Jakobsweg",
+    "age": "24",
+    "role": "Als echter Social-Media-Star promotet sie eine erfolgreiche Pilger-App, doch abseits des Scheinwerferlichts herrscht dicke Luft.",
     "char_desc": "Du bist ein Promi und eine bekannte Influencerin. Dein Leben findet hauptsächlich online statt und du bist es gewohnt, im Mittelpunkt zu stehen. Du bist oberflächlich, laut und inszenierst jede Sekunde deines Alltags für deine Follower. Zurzeit promotest du die PilgerApp „Echte Spiritualität in 30 Tagen“. Du postest ständig, wie diese App dein Leben gerettet hat. Doch alles ist ein Teil deiner eiskalten Inszenierung.",
     "secrets": "Du steckst mit Martin unter einer Decke. Gemeinsam habt ihr die App entwickelt. Während Martin gefälschte Bewertungen und die Blogeinträge schreibt und du als Werbegesicht fungierst, ist die App in Wahrheit ein Betrugstool. Sie sammelt nicht nur die Abogebühren, sondern greift heimlich die Kreditkartendaten der Nutzer ab. Gleichzeitig führtest du eine Liebesbeziehung zu Martin, die ihr auf eurer App präsentiert. Die Leute kaufen eine spirituelle App viel eher, wenn sie an die große wahre Liebe auf dem Jakobsweg glauben. Eure Liebesgeschichte auf dem Jakobsweg ist für die Fans erfunden, um die App besser zu verkaufen. Du bist tatsächlich in Martin verliebt. Doch vor dem Abendessen hat er dich eiskalt abserviert. Er hat kein Interesse an dir und möchte dein Werbegesicht de r App durch eine jüngere Influencerin ersetzen. Du bist am Boden zerstört.",
     "relation_martin": "Nach außen seid ihr das „Traumpaar“ des Caminos. In der Realität war eure Beziehung toxisch. Martin war sehr kontrollierend und kritisierte ständig dein Aussehen. Du schwankst ständig zwischen extremer Anhänglichkeit und totaler Genervtheit. Ihr streitet nur noch aber vor der Kamera ist davon nichts zu sehen. Trotzalledem versuchst du dich ihm anzunähern, denn in Anwesenheit von Mitpilgerern erfährst du unfassbar viel Liebe und Zärtlichkeit, die deinen Funken überspringen lässt. Nachdem er dich am Abend abserviert hat, hat sich deine Liebe zu ihm in tiefen Hass erfüllt. Dein potentielles Mordmotiv: Dein Motiv ist eine Mischung aus Rache und Existenzangst. Martin wollte dich nicht nur als Frau, sondern auch als Geschäftspartnerin absägen. Wenn er dich ersetzt hätte, wäre dein Image zerstört und dein Anteil am App Betrug in Gefahr.",
@@ -167,7 +167,7 @@ function renderCharacterGrid() {
     const localImagePath = `assets/characters/${char.id}.png`;
     
     // We check if we have pre-loaded portraits. Albert, clara, benedikt, thomas exist.
-    const hasImage = ["albert", "clara", "benedikt", "thomas"].includes(char.id);
+    const hasImage = ["albert", "amina", "lena", "monika", "pastor", "paul", "rico", "walentina"].includes(char.id);
     
     if (hasImage) {
       imageHTML = `<img src="${localImagePath}" alt="${char.name}" class="character-img" onerror="this.style.display='none'; this.nextElementSibling.style.display='block';">
@@ -204,141 +204,28 @@ function openCharacterModal(charId) {
   document.getElementById('modal-char-name').innerText = char.name;
   document.getElementById('modal-char-role').innerText = `Alter: ${char.age} | ${char.role}`;
   
-  const publicTab = document.getElementById('tab-public');
-  const secretTab = document.getElementById('tab-secret');
-
-  // Render Public Profile Tab
-  publicTab.innerHTML = `
-    <div class="public-profile-content">
-      <div class="profile-section" style="margin-bottom: 1.5rem;">
-        <h4 style="color: var(--accent-gold-dark); border-bottom: 1px solid var(--border-sep); padding-bottom: 0.3rem; margin-bottom: 0.5rem; text-transform: uppercase; font-size: 0.9rem;">Hintergrund</h4>
-        <p style="font-family: var(--font-serif); font-size: 1.05rem; line-height: 1.6;">${char.char_desc}</p>
-      </div>
-      
-      <div class="profile-section" style="margin-bottom: 1.5rem;">
-        <h4 style="color: var(--accent-gold-dark); border-bottom: 1px solid var(--border-sep); padding-bottom: 0.3rem; margin-bottom: 0.5rem; text-transform: uppercase; font-size: 0.9rem;">Öffentlich bekannte Ausrüstung &amp; Kostüm</h4>
-        <p>${char.costume}</p>
-        <p style="margin-top: 0.5rem;"><strong>Ausrüstungsgegenstand:</strong> ${char.must_bring}</p>
-      </div>
-    </div>
-  `;
-  
-  // Render Secret Booklet Companion Tab (Initially locked with Spoiler Protection)
-  secretTab.innerHTML = `
-    <div class="secret-lock" id="secret-lock-${char.id}">
-      <div class="secret-lock-title">🚨 Spoilerschutz-Sperre!</div>
-      <p class="secret-lock-desc">Dieses digitale Heft enthält alle geheimen Spielinformationen, Ziele, Beziehungen und den zeitlichen Ablauf für die einzelnen Runden. Bitte nur öffnen, wenn du diese Rolle heute Abend spielst!</p>
-      <button class="btn btn-primary btn-reveal-secret" data-id="${char.id}">Rollenheft öffnen &amp; Geheimnis enthüllen</button>
-    </div>
-    <div class="secret-content" id="secret-content-${char.id}">
-      <!-- Sub-Tabs Navigation for Secret Companion -->
-      <div class="sub-tabs" style="display: flex; gap: 0.5rem; border-bottom: 1px solid var(--border-sep); padding-bottom: 0.5rem; margin-bottom: 1rem; overflow-x: auto;">
-        <button class="sub-tab-btn active" data-target="sec-info-${char.id}" style="background: none; border: none; padding: 0.4rem 0.8rem; font-family: var(--font-sans); font-weight: 700; font-size: 0.8rem; text-transform: uppercase; cursor: pointer; color: var(--text-muted); border-bottom: 2px solid transparent;">Geheimnis &amp; Aufgaben</button>
-        <button class="sub-tab-btn" data-target="sec-rel-${char.id}" style="background: none; border: none; padding: 0.4rem 0.8rem; font-family: var(--font-sans); font-weight: 700; font-size: 0.8rem; text-transform: uppercase; cursor: pointer; color: var(--text-muted); border-bottom: 2px solid transparent;">Beziehungen</button>
-        <button class="sub-tab-btn" data-target="sec-rd1-${char.id}" style="background: none; border: none; padding: 0.4rem 0.8rem; font-family: var(--font-sans); font-weight: 700; font-size: 0.8rem; text-transform: uppercase; cursor: pointer; color: var(--text-muted); border-bottom: 2px solid transparent;">Runde 1</button>
-        <button class="sub-tab-btn" data-target="sec-rd2-${char.id}" style="background: none; border: none; padding: 0.4rem 0.8rem; font-family: var(--font-sans); font-weight: 700; font-size: 0.8rem; text-transform: uppercase; cursor: pointer; color: var(--text-muted); border-bottom: 2px solid transparent;">Runde 2</button>
-        <button class="sub-tab-btn" data-target="sec-rd3-${char.id}" style="background: none; border: none; padding: 0.4rem 0.8rem; font-family: var(--font-sans); font-weight: 700; font-size: 0.8rem; text-transform: uppercase; cursor: pointer; color: var(--text-muted); border-bottom: 2px solid transparent;">Runde 3</button>
-      </div>
-
-      <!-- Sub-Tab 1: Secrets & Tasks -->
-      <div class="sub-tab-panel active" id="sec-info-${char.id}">
-        <h4 style="color: var(--primary-blood); margin-bottom: 0.5rem; text-transform: uppercase; font-size: 0.9rem;">Dein Geheimnis</h4>
-        <p style="font-family: var(--font-serif); font-size: 1rem; line-height: 1.6; margin-bottom: 1rem; padding: 0.8rem; border-left: 3px solid var(--primary-blood); background: rgba(140,29,29,0.02);">${char.secrets}</p>
+  const profileContent = document.getElementById('modal-profile-content');
+  if (profileContent) {
+    profileContent.innerHTML = `
+      <div class="public-profile-content">
+        <div class="profile-section" style="margin-bottom: 1.5rem;">
+          <h4 style="color: var(--accent-gold-dark); border-bottom: 1px solid var(--border-sep); padding-bottom: 0.3rem; margin-bottom: 0.5rem; text-transform: uppercase; font-size: 0.9rem;">Hintergrund</h4>
+          <p style="font-family: var(--font-serif); font-size: 1.05rem; line-height: 1.6;">${char.char_desc}</p>
+        </div>
         
-        <h4 style="color: var(--accent-gold-dark); margin-bottom: 0.3rem; text-transform: uppercase; font-size: 0.85rem;">Beziehung zu Martin (Opfer)</h4>
-        <p style="margin-bottom: 1rem; font-size: 0.95rem;">${char.relation_martin}</p>
-        
-        <h4 style="color: var(--accent-gold-dark); margin-bottom: 0.3rem; text-transform: uppercase; font-size: 0.85rem;">Dein potenzielles Mordmotiv</h4>
-        <p style="margin-bottom: 1rem; font-size: 0.95rem;">${char.motiv}</p>
-
-        <h4 style="color: var(--accent-gold-dark); margin-bottom: 0.3rem; text-transform: uppercase; font-size: 0.85rem;">Hauptaufgabe</h4>
-        <p style="margin-bottom: 1rem; font-size: 0.95rem; font-weight: 600;">${char.main_task}</p>
-
-        <h4 style="color: var(--accent-gold-dark); margin-bottom: 0.3rem; text-transform: uppercase; font-size: 0.85rem;">Nebenaufgabe</h4>
-        <p style="font-size: 0.95rem;">${char.side_task}</p>
-      </div>
-
-      <!-- Sub-Tab 2: Relationships -->
-      <div class="sub-tab-panel" id="sec-rel-${char.id}" style="display:none;">
-        <h4 style="color: var(--accent-gold-dark); margin-bottom: 0.8rem; text-transform: uppercase; font-size: 0.9rem; border-bottom: 1px solid var(--border-sep); padding-bottom: 0.3rem;">Deine Beziehung zu den Verdächtigen</h4>
-        <div style="font-size: 0.95rem; line-height: 1.6;">${char.relations_others}</div>
-      </div>
-
-      <!-- Sub-Tab 3: Round 1 Timeline -->
-      <div class="sub-tab-panel" id="sec-rd1-${char.id}" style="display:none;">
-        <div class="round-card-info" style="background: var(--bg-parchment); border: 1px solid var(--border-sep); padding: 0.8rem 1rem; border-radius: 4px; font-size: 0.85rem; margin-bottom: 1rem; font-weight: 700; color: var(--primary-blood);">
-          📢 VORSCHRIFT FÜR RUNDE 1: Teile der Gruppe mit, was du zwischen 17:00 und 18:00 Uhr gemacht hast. Lasse verdächtige Details geschickt aus!
+        <div class="profile-section" style="margin-bottom: 1.5rem;">
+          <h4 style="color: var(--accent-gold-dark); border-bottom: 1px solid var(--border-sep); padding-bottom: 0.3rem; margin-bottom: 0.5rem; text-transform: uppercase; font-size: 0.9rem;">Öffentlich bekannte Ausrüstung &amp; Kostüm</h4>
+          <p>${char.costume}</p>
+          <p style="margin-top: 0.5rem;"><strong>Ausrüstungsgegenstand:</strong> ${char.must_bring}</p>
         </div>
-        <div style="line-height: 1.6; font-size: 0.95rem;">${char.round1 ? char.round1 : "Du bist um 17:00 Uhr in der Herberge angekommen, hast dein Zimmer bezogen und dich beim Abendessen im Speisesaal eingefunden. Nichts Verdächtiges vorgefallen."}</div>
       </div>
-
-      <!-- Sub-Tab 4: Round 2 Timeline -->
-      <div class="sub-tab-panel" id="sec-rd2-${char.id}" style="display:none;">
-        <div class="round-card-info" style="background: var(--bg-parchment); border: 1px solid var(--border-sep); padding: 0.8rem 1rem; border-radius: 4px; font-size: 0.85rem; margin-bottom: 1rem; font-weight: 700; color: var(--primary-blood);">
-          📢 VORSCHRIFT FÜR RUNDE 2: Berichte der Gruppe über deinen Ablauf von 18:00 bis 19:00 Uhr. Tausche dich über die neuen Motive aus.
-        </div>
-        <div style="line-height: 1.6; font-size: 0.95rem;">${char.round2 ? char.round2 : "Zwischen 18:00 und 19:00 Uhr hast du dich im Aufenthaltsraum entspannt oder an der Andacht in der Kapelle teilgenommen. Du hast keine verdächtigen Aktivitäten beobachtet."}</div>
-      </div>
-
-      <!-- Sub-Tab 5: Round 3 Timeline -->
-      <div class="sub-tab-panel" id="sec-rd3-${char.id}" style="display:none;">
-        <div class="round-card-info" style="background: var(--bg-parchment); border: 1px solid var(--border-sep); padding: 0.8rem 1rem; border-radius: 4px; font-size: 0.85rem; margin-bottom: 1rem; font-weight: 700; color: var(--primary-blood);">
-          📢 VORSCHRIFT FÜR RUNDE 3: Das ist die letzte Diskussionsrunde (19:00 bis 20:00 Uhr) vor der großen Anklage. Versuche den wahren Mörder zu entlarven!
-        </div>
-        <div style="line-height: 1.6; font-size: 0.95rem;">${char.round3 ? char.round3 : "Um 19:00 Uhr begann der Tumult, als Martin merkte, dass sein Rucksack vertauscht wurde. Um 19:50 Uhr fiel er am Tisch hustend um. Oktopus-Geruch lag in der Luft. Wer hat das Gift verabreicht?"}</div>
-      </div>
-
-      <button class="btn btn-secondary btn-lock-secret" data-id="${char.id}" style="margin-top: 2rem; width: 100%;">Geheimnis wieder sperren &amp; Spoilerschutz aktivieren</button>
-    </div>
-  `;
-
-  // Attach event listeners for reveal/lock buttons
-  secretTab.querySelector('.btn-reveal-secret').addEventListener('click', () => {
-    document.getElementById(`secret-lock-${char.id}`).style.display = 'none';
-    document.getElementById(`secret-content-${char.id}`).style.display = 'block';
-  });
-
-  secretTab.querySelector('.btn-lock-secret').addEventListener('click', () => {
-    document.getElementById(`secret-lock-${char.id}`).style.display = 'block';
-    document.getElementById(`secret-content-${char.id}`).style.display = 'none';
-  });
-
-  // Attach event listeners for sub-tabs inside secret tab
-  const subTabButtons = secretTab.querySelectorAll('.sub-tab-btn');
-  const subTabPanels = secretTab.querySelectorAll('.sub-tab-panel');
-
-  subTabButtons.forEach(btn => {
-    btn.addEventListener('click', (e) => {
-      // Reset active state for buttons
-      subTabButtons.forEach(b => {
-        b.classList.remove('active');
-        b.style.borderBottomColor = 'transparent';
-        b.style.color = 'var(--text-muted)';
-      });
-      
-      // Set active state for clicked button
-      btn.classList.add('active');
-      btn.style.borderBottomColor = 'var(--primary-blood)';
-      btn.style.color = 'var(--primary-blood)';
-      
-      // Hide all panels
-      subTabPanels.forEach(p => p.style.display = 'none');
-      
-      // Show targeted panel
-      const targetId = btn.getAttribute('data-target');
-      document.getElementById(targetId).style.display = 'block';
-    });
-  });
-
-  // Apply default styles to the first subtab button
-  const firstSubTab = subTabButtons[0];
-  if (firstSubTab) {
-    firstSubTab.style.borderBottomColor = 'var(--primary-blood)';
-    firstSubTab.style.color = 'var(--primary-blood)';
+    `;
   }
-
-  // Reset active main tab to public profile
-  switchTab('public');
+  
+  const downloadLink = document.getElementById('modal-download-link');
+  if (downloadLink) {
+    downloadLink.setAttribute('href', `assets/role-books/${char.id}.pdf`);
+  }
 
   // Open modal native API
   dialog.showModal();
@@ -348,26 +235,6 @@ function closeModal() {
   const dialog = document.getElementById('character-dialog');
   if (dialog) {
     dialog.close();
-  }
-}
-
-// Switch tabs inside modal
-function switchTab(tabType) {
-  const btnPublic = document.getElementById('tab-btn-public');
-  const btnSecret = document.getElementById('tab-btn-secret');
-  const contentPublic = document.getElementById('tab-public');
-  const contentSecret = document.getElementById('tab-secret');
-
-  if (tabType === 'public') {
-    btnPublic.classList.add('active');
-    btnSecret.classList.remove('active');
-    contentPublic.classList.add('active');
-    contentSecret.classList.remove('active');
-  } else {
-    btnPublic.classList.remove('active');
-    btnSecret.classList.add('active');
-    contentPublic.classList.remove('active');
-    contentSecret.classList.add('active');
   }
 }
 
@@ -440,6 +307,7 @@ let ambientAudio = null;
 let isAudioPlaying = false;
 
 function setupAudioPlayer() {
+  return 0;
   const audioBtn = document.getElementById('audio-toggle-btn');
   const audioText = document.getElementById('audio-status-text');
   
@@ -447,7 +315,7 @@ function setupAudioPlayer() {
 
   // Create native HTML5 audio object with a copyright-free Spanish nylon guitar loop
   // Falls die URL ungültig wird, fängt der Error-Handler das ab und simuliert die Wiedergabe
-  ambientAudio = new Audio('https://www.soundhelix.com/examples/mp3/SoundHelix-Song-8.mp3'); 
+  //ambientAudio = new Audio('https://www.soundhelix.com/examples/mp3/SoundHelix-Song-8.mp3'); 
   ambientAudio.loop = true;
   ambientAudio.volume = 0.25; // Quiet background level
 
@@ -486,13 +354,4 @@ document.addEventListener('DOMContentLoaded', () => {
     modalCloseBtn.addEventListener('click', closeModal);
   }
 
-  const tabBtnPublic = document.getElementById('tab-btn-public');
-  if (tabBtnPublic) {
-    tabBtnPublic.addEventListener('click', () => switchTab('public'));
-  }
-
-  const tabBtnSecret = document.getElementById('tab-btn-secret');
-  if (tabBtnSecret) {
-    tabBtnSecret.addEventListener('click', () => switchTab('secret'));
-  }
 });
