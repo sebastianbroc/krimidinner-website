@@ -413,6 +413,7 @@ nav a:hover {
   font-size: 1.6rem;
   color: var(--primary-blood);
   margin-bottom: 0.2rem;
+  display: none;
 }
 
 .character-name {
