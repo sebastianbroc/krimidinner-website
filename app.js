@@ -78,10 +78,10 @@ const charactersData = [
   },
   {
     "id": "pastor",
-    "name": "Pastor (Johannes)",
+    "name": "Pastor",
     "age": "61",
     "role": "Er wirkt wie ein gütiger Seelsorger, dem das Wohlbefinden der Gemeinschaft am Herzen liegt. Für alle Pilger hat er ein offenes Ohr.",
-    "char_desc": "Als Pastor auf dem Jakobsweg hast du für jeden ein offenes Ohr und ein tröstendes Wort. Du wirkst wie ein naiver Seelsorger, der in jedem Menschen nur das Gute sieht. Doch hinter dem gütigen Lächeln verbirgt sich ein knallharter Ermittler der Kirche. Du bist kein einfacher Gemeindepfarrer, sondern arbeitest direkt für das Bistum.",
+    "char_desc": "Als Pastor auf dem Jakobsweg hast du für jeden ein offenes Ohr und ein tröstendes Wort. Du wirkst wie ein naiver Seelsorger, der in jedem Menschen nur das Gute sieht. Doch hinter dem gütigen Lächeln verbirgt sich ein knallharter Ermittler der Kirche. Du bist kein einfacher Gemeindepfarrer...",
     "secrets": "Du bist „Undercover“ auf dem Pilgerweg. Das Bistum hat dich geschickt, um Beweise gegen das Opfer Martin zu sammeln. Es gibt schwerwiegende Gerüchte, dass er Spendengelder veruntreut und Pilger psychisch unter Druck gesetzt hat. Dein Auftrag ist es, ihn zu entlarven bevor es ein öffentlicher Skandal für die Kirche erschüttert. Zudem begleitest du Rico, einen ehemaligen Sträfling, im Rahmen des Resozialierungsprogramms „Pilgern statt Knast“. Du hast Rico ins Herz geschlossen, doch Martin hat herausgefunden, dass Rico einen Rückfall hatte und will ihn hinter Gitter bringen. Für dich ist Martin der Teufel in Person, der jeder auf dieser Reise vernichten möchte. Du willst Rico um jeden Preis schützen. Niemand weiß, dass Rico und du in Verbindung stehen. Für alle seid ihr auf der Reise seid ihr nur gute Weggefährten geworden, die sich vielleicht zu sehr vertrauen.",
     "relation_martin": "Deine Beziehung zu Martin ist von tiefer Verachtung geprägt. Während du ihm gegenüber einem freundlichen Mitbruder spielst, sammelst du im Hintergrund akribisch Beweise für seine Verbrechen. Sein Umgang mit Rico hat dein Fass zum Überlaufen gebracht.",
     "motiv": "Dein potenzielles Mordmotiv den drohenden Kirchenskandal endgültig zu vertuschen und gleichzeitig deinen Schützling Rico vor dem Gefängnis zu bewahren.",
