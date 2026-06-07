@@ -998,6 +998,16 @@ dialog::backdrop {
   letter-spacing: 0.05em;
 }
 
+.audio-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.audio-item {
+  margin-bottom: 20px;
+}
+
 /* Footer */
 footer {
   background: var(--text-dark);
